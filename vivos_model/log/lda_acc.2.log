@@ -1,0 +1,86 @@
+# ali-to-post "ark:gunzip -c exp/tri1_ali/ali.2.gz|" ark:- | weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- | acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |" ark,s,cs:- exp/tri2/lda.2.acc 
+# Started at Fri Dec 30 01:30:56 ICT 2016
+#
+ali-to-post 'ark:gunzip -c exp/tri1_ali/ali.2.gz|' ark:- 
+weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- 
+acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |' ark,s,cs:- exp/tri2/lda.2.acc 
+apply-cmvn --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+LOG (acc-lda:main():acc-lda.cc:114) Done 100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK16_139
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK16_151
+LOG (acc-lda:main():acc-lda.cc:114) Done 200 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK16_265
+LOG (acc-lda:main():acc-lda.cc:114) Done 300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 500 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK17_210
+LOG (acc-lda:main():acc-lda.cc:114) Done 600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 900 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK20_001
+LOG (acc-lda:main():acc-lda.cc:114) Done 1200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1800 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK22_047
+LOG (acc-lda:main():acc-lda.cc:114) Done 1900 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK22_161
+LOG (acc-lda:main():acc-lda.cc:114) Done 2000 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_001
+LOG (acc-lda:main():acc-lda.cc:114) Done 2100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_024
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_025
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_028
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_032
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_034
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_038
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_040
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_042
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_043
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_048
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_050
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_051
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_053
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_054
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_078
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK23_089
+LOG (acc-lda:main():acc-lda.cc:114) Done 2200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2700 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK26_300
+LOG (acc-lda:main():acc-lda.cc:114) Done 2800 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK27_094
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK27_095
+LOG (acc-lda:main():acc-lda.cc:114) Done 2900 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK27_138
+LOG (acc-lda:main():acc-lda.cc:114) Done 3000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK28_138
+LOG (acc-lda:main():acc-lda.cc:114) Done 3200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3500 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK30_153
+LOG (acc-lda:main():acc-lda.cc:114) Done 3600 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK31_151
+LOG (acc-lda:main():acc-lda.cc:114) Done 3700 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK31_194
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK31_197
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK31_209
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 3798 alignments.
+LOG (weight-silence-post:main():weight-silence-post.cc:95) Done 3798 posteriors.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 3832 utterances, errors on 0
+LOG (acc-lda:main():acc-lda.cc:117) Done 3798 files, failed for 34
+LOG (acc-lda:main():acc-lda.cc:122) Written statistics.
+# Accounting: time=40 threads=1
+# Ended (code 0) at Fri Dec 30 01:31:36 ICT 2016, elapsed time 40 seconds

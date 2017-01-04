@@ -1,0 +1,150 @@
+# ali-to-post "ark:gunzip -c exp/tri1_ali/ali.3.gz|" ark:- | weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- | acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/3/utt2spk scp:data/train/split3/3/cmvn.scp scp:data/train/split3/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |" ark,s,cs:- exp/tri2/lda.3.acc 
+# Started at Fri Dec 30 01:30:56 ICT 2016
+#
+acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/3/utt2spk scp:data/train/split3/3/cmvn.scp scp:data/train/split3/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |' ark,s,cs:- exp/tri2/lda.3.acc 
+ali-to-post 'ark:gunzip -c exp/tri1_ali/ali.3.gz|' ark:- 
+weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split3/3/utt2spk scp:data/train/split3/3/cmvn.scp scp:data/train/split3/3/feats.scp ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK32_031
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK32_053
+LOG (acc-lda:main():acc-lda.cc:114) Done 100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 400 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_006
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_012
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_017
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_032
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_045
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_072
+LOG (acc-lda:main():acc-lda.cc:114) Done 500 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_076
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK34_082
+LOG (acc-lda:main():acc-lda.cc:114) Done 600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 900 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK35_262
+LOG (acc-lda:main():acc-lda.cc:114) Done 1000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1900 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_109
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_112
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_176
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_185
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_187
+LOG (acc-lda:main():acc-lda.cc:114) Done 2000 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_189
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_190
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_196
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_217
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_225
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_227
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_240
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_241
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_244
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_248
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_257
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_258
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_265
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_268
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_276
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_280
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_282
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK40_284
+LOG (acc-lda:main():acc-lda.cc:114) Done 2100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_020
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_034
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_046
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_065
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_071
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_073
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_077
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_085
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_105
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_107
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_108
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_112
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_114
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_119
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_120
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_121
+LOG (acc-lda:main():acc-lda.cc:114) Done 2200 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_129
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_137
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_146
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_148
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_151
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_154
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_181
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_196
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_200
+LOG (acc-lda:main():acc-lda.cc:114) Done 2300 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_242
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK41_292
+LOG (acc-lda:main():acc-lda.cc:114) Done 2400 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_052
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_062
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_065
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_066
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_067
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_069
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_105
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_121
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_127
+LOG (acc-lda:main():acc-lda.cc:114) Done 2500 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_153
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_162
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_184
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_240
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_241
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_243
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_245
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_246
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_247
+LOG (acc-lda:main():acc-lda.cc:114) Done 2600 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_258
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK42_300
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_050
+LOG (acc-lda:main():acc-lda.cc:114) Done 2700 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_063
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_066
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_077
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_109
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_120
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK43_128
+LOG (acc-lda:main():acc-lda.cc:114) Done 2800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2900 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3000 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_134
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_144
+LOG (acc-lda:main():acc-lda.cc:114) Done 3100 utterances.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_182
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_183
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_205
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_213
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_220
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK44_221
+LOG (acc-lda:main():acc-lda.cc:114) Done 3200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3800 utterances.
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 3831 alignments.
+WARNING (acc-lda:main():acc-lda.cc:77) No posteriors for utterance VIVOSSPK46_288
+LOG (weight-silence-post:main():weight-silence-post.cc:95) Done 3831 posteriors.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 3928 utterances, errors on 0
+LOG (acc-lda:main():acc-lda.cc:117) Done 3831 files, failed for 97
+LOG (acc-lda:main():acc-lda.cc:122) Written statistics.
+# Accounting: time=44 threads=1
+# Ended (code 0) at Fri Dec 30 01:31:40 ICT 2016, elapsed time 44 seconds

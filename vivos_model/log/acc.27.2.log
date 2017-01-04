@@ -1,0 +1,141 @@
+# gmm-acc-stats-ali exp/tri2/27.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri2/12.mat ark:- ark:- |" "ark,s,cs:gunzip -c exp/tri2/ali.2.gz|" exp/tri2/27.2.acc 
+# Started at Fri Dec 30 02:06:31 ICT 2016
+#
+gmm-acc-stats-ali exp/tri2/27.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri2/12.mat ark:- ark:- |' 'ark,s,cs:gunzip -c exp/tri2/ali.2.gz|' exp/tri2/27.2.acc 
+transform-feats exp/tri2/12.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- 
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK16_009
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance VIVOSSPK16_051 avg. like is -50.3084 over 314 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance VIVOSSPK16_101 avg. like is -46.8398 over 282 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK16_139
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK16_142
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK16_151
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance VIVOSSPK16_154 avg. like is -46.2274 over 417 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance VIVOSSPK16_204 avg. like is -47.619 over 179 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance VIVOSSPK16_254 avg. like is -50.4646 over 267 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK16_265
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance VIVOSSPK17_005 avg. like is -46.2385 over 136 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance VIVOSSPK17_055 avg. like is -50.053 over 326 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance VIVOSSPK17_105 avg. like is -50.2042 over 223 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance VIVOSSPK17_155 avg. like is -51.2785 over 429 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance VIVOSSPK17_205 avg. like is -43.5817 over 198 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK17_210
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK17_211
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance VIVOSSPK17_257 avg. like is -49.3821 over 226 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance VIVOSSPK18_007 avg. like is -44.4334 over 367 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance VIVOSSPK18_057 avg. like is -50.8421 over 304 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance VIVOSSPK18_107 avg. like is -51.2688 over 236 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance VIVOSSPK18_157 avg. like is -49.2693 over 320 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance VIVOSSPK18_207 avg. like is -41.7474 over 161 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance VIVOSSPK18_257 avg. like is -48.964 over 329 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 900 utterances; for utterance VIVOSSPK19_007 avg. like is -45.558 over 351 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 950 utterances; for utterance VIVOSSPK19_057 avg. like is -44.7192 over 276 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1000 utterances; for utterance VIVOSSPK19_107 avg. like is -45.8821 over 289 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1050 utterances; for utterance VIVOSSPK19_157 avg. like is -44.4058 over 232 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1100 utterances; for utterance VIVOSSPK19_207 avg. like is -38.7532 over 261 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1150 utterances; for utterance VIVOSSPK19_257 avg. like is -43.1403 over 379 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK20_001
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1200 utterances; for utterance VIVOSSPK20_008 avg. like is -48.2912 over 286 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1250 utterances; for utterance VIVOSSPK20_058 avg. like is -43.5813 over 211 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1300 utterances; for utterance VIVOSSPK20_108 avg. like is -47.4124 over 214 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK20_136
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1350 utterances; for utterance VIVOSSPK20_159 avg. like is -55.8718 over 229 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1400 utterances; for utterance VIVOSSPK20_209 avg. like is -42.7397 over 192 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1450 utterances; for utterance VIVOSSPK20_259 avg. like is -47.5773 over 236 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1500 utterances; for utterance VIVOSSPK21_009 avg. like is -44.483 over 267 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1550 utterances; for utterance VIVOSSPK21_059 avg. like is -46.2507 over 245 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1600 utterances; for utterance VIVOSSPK21_109 avg. like is -44.7453 over 467 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1650 utterances; for utterance VIVOSSPK21_159 avg. like is -46.1946 over 304 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1700 utterances; for utterance VIVOSSPK21_209 avg. like is -38.1568 over 329 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1750 utterances; for utterance VIVOSSPK21_259 avg. like is -45.4989 over 270 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1800 utterances; for utterance VIVOSSPK22_009 avg. like is -41.514 over 336 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK22_047
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1850 utterances; for utterance VIVOSSPK22_060 avg. like is -39.4225 over 286 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1900 utterances; for utterance VIVOSSPK22_110 avg. like is -43.917 over 370 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1950 utterances; for utterance VIVOSSPK22_160 avg. like is -46.7775 over 361 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK22_161
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2000 utterances; for utterance VIVOSSPK22_211 avg. like is -35.2098 over 467 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2050 utterances; for utterance VIVOSSPK22_261 avg. like is -40.9488 over 417 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_001
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2100 utterances; for utterance VIVOSSPK23_012 avg. like is -56.3626 over 426 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_016
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_024
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_025
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_028
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_032
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_034
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_038
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_040
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_042
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_043
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_048
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_050
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_051
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_053
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_054
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_055
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_060
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_078
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2150 utterances; for utterance VIVOSSPK23_080 avg. like is -50.6823 over 592 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_089
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK23_096
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2200 utterances; for utterance VIVOSSPK24_022 avg. like is -48.1346 over 423 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK24_042
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2250 utterances; for utterance VIVOSSPK24_073 avg. like is -47.1538 over 767 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2300 utterances; for utterance VIVOSSPK25_023 avg. like is -49.2352 over 586 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2350 utterances; for utterance VIVOSSPK25_073 avg. like is -45.3524 over 748 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2400 utterances; for utterance VIVOSSPK25_123 avg. like is -48.8455 over 679 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2450 utterances; for utterance VIVOSSPK25_173 avg. like is -47.0569 over 842 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2500 utterances; for utterance VIVOSSPK26_043 avg. like is -51.3738 over 954 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2550 utterances; for utterance VIVOSSPK26_093 avg. like is -49.0002 over 523 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2600 utterances; for utterance VIVOSSPK26_143 avg. like is -45.2108 over 539 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK26_160
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2650 utterances; for utterance VIVOSSPK26_194 avg. like is -47.128 over 623 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2700 utterances; for utterance VIVOSSPK26_244 avg. like is -46.3392 over 1176 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2750 utterances; for utterance VIVOSSPK26_294 avg. like is -48.7667 over 579 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK26_300
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_016
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2800 utterances; for utterance VIVOSSPK27_046 avg. like is -42.4982 over 629 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_094
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_095
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2850 utterances; for utterance VIVOSSPK27_098 avg. like is -52.7974 over 654 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_099
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_104
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_138
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_140
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2900 utterances; for utterance VIVOSSPK27_152 avg. like is -47.4931 over 1217 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK27_156
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 2950 utterances; for utterance VIVOSSPK27_203 avg. like is -50.7421 over 801 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3000 utterances; for utterance VIVOSSPK28_009 avg. like is -47.2247 over 592 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK28_055
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3050 utterances; for utterance VIVOSSPK28_060 avg. like is -50.9493 over 648 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3100 utterances; for utterance VIVOSSPK28_110 avg. like is -49.1369 over 726 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK28_117
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK28_138
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3150 utterances; for utterance VIVOSSPK28_162 avg. like is -46.9306 over 764 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3200 utterances; for utterance VIVOSSPK29_042 avg. like is -42.6035 over 770 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3250 utterances; for utterance VIVOSSPK29_092 avg. like is -40.5912 over 873 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3300 utterances; for utterance VIVOSSPK29_142 avg. like is -44.4981 over 911 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3350 utterances; for utterance VIVOSSPK29_192 avg. like is -41.9649 over 642 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3400 utterances; for utterance VIVOSSPK30_042 avg. like is -47.0408 over 704 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3450 utterances; for utterance VIVOSSPK30_092 avg. like is -45.4958 over 892 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3500 utterances; for utterance VIVOSSPK30_142 avg. like is -44.0953 over 729 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK30_153
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3550 utterances; for utterance VIVOSSPK31_040 avg. like is -46.253 over 639 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3600 utterances; for utterance VIVOSSPK31_090 avg. like is -45.5967 over 942 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3650 utterances; for utterance VIVOSSPK31_140 avg. like is -44.6811 over 723 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK31_151
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3700 utterances; for utterance VIVOSSPK31_191 avg. like is -46.8191 over 498 frames.
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK31_194
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK31_197
+WARNING (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:79) No alignment for utterance VIVOSSPK31_209
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 3750 utterances; for utterance VIVOSSPK31_244 avg. like is -47.2004 over 861 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 3832 utterances, errors on 0
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -90.1621 over 1.87974e+06 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 3832 utterances; 0 had errors.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:112) Done 3781 files, 51 with errors.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -46.4519 over 1853683 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=36 threads=1
+# Ended (code 0) at Fri Dec 30 02:07:07 ICT 2016, elapsed time 36 seconds

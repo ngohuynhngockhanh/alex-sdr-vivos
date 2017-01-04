@@ -1,0 +1,54 @@
+# ali-to-post "ark:gunzip -c exp/tri1_ali/ali.1.gz|" ark:- | weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- | acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/1/utt2spk scp:data/train/split3/1/cmvn.scp scp:data/train/split3/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |" ark,s,cs:- exp/tri2/lda.1.acc 
+# Started at Fri Dec 30 01:30:56 ICT 2016
+#
+ali-to-post 'ark:gunzip -c exp/tri1_ali/ali.1.gz|' ark:- 
+acc-lda --rand-prune=4.0 exp/tri1_ali/final.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/1/utt2spk scp:data/train/split3/1/cmvn.scp scp:data/train/split3/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- |' ark,s,cs:- exp/tri2/lda.1.acc 
+weight-silence-post 0.0 1 exp/tri1_ali/final.mdl ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split3/1/utt2spk scp:data/train/split3/1/cmvn.scp scp:data/train/split3/1/feats.scp ark:- 
+LOG (acc-lda:main():acc-lda.cc:114) Done 100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 900 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 1900 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2800 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 2900 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3000 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3100 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3200 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3300 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3400 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3500 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3600 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3700 utterances.
+LOG (acc-lda:main():acc-lda.cc:114) Done 3800 utterances.
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 3900 alignments.
+LOG (weight-silence-post:main():weight-silence-post.cc:95) Done 3900 posteriors.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 3900 utterances, errors on 0
+LOG (acc-lda:main():acc-lda.cc:114) Done 3900 utterances.
+LOG (acc-lda:main():acc-lda.cc:117) Done 3900 files, failed for 0
+LOG (acc-lda:main():acc-lda.cc:122) Written statistics.
+# Accounting: time=31 threads=1
+# Ended (code 0) at Fri Dec 30 01:31:27 ICT 2016, elapsed time 31 seconds

@@ -1,0 +1,1528 @@
+# lattice-best-path --lm-scale=18 --word-symbol-table=exp/tri2/graph/words.txt "ark:gunzip -c exp/tri2/decode_test/lat.*.gz|" ark,t:exp/tri2/decode_test/scoring/18.tra 
+# Started at Fri Dec 30 02:48:11 ICT 2016
+#
+lattice-best-path --lm-scale=18 --word-symbol-table=exp/tri2/graph/words.txt 'ark:gunzip -c exp/tri2/decode_test/lat.*.gz|' ark,t:exp/tri2/decode_test/scoring/18.tra 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R002, best cost 1498.22 + 18830.6 = 20328.9 over 404 frames.
+VIVOSDEV01_R002 TIỀN CỌC CẠCH THUẬN LỢI CỦA NHỮNG CỌC SẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R003, best cost 1144.01 + 16192.3 = 17336.3 over 367 frames.
+VIVOSDEV01_R003 CŨNG LÊN TIẾNG ỦNG HỘ CÁC KIẾN NGHỊ NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R012, best cost 1603.09 + 17944.2 = 19547.3 over 417 frames.
+VIVOSDEV01_R012 NHỮNG CƠN GIÓ MẠNH VÀ MƯA ĐỒNG BỌN GÂY TRƠN TRỢT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R027, best cost 2161.77 + 20957.2 = 23119 over 470 frames.
+VIVOSDEV01_R027 DI TÍCH CÓ BẢY PHÒNG ÔNG VÀ HAI PHÒNG VÀ ĐƯỢC LÀM BẰNG GỖ MÍT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R028, best cost 1926.2 + 21883.1 = 23809.3 over 454 frames.
+VIVOSDEV01_R028 CÁC CHÙA CŨNG THOẢI MÁI KHÔNG NGỒI GIỮA CHỐN ĐÔNG NGƯỜI MÀ KHÔNG SỢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R034, best cost 426.717 + 8316.73 = 8743.45 over 192 frames.
+VIVOSDEV01_R034 NGƯỜI TA NÓI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R043, best cost 1405.68 + 15318.4 = 16724.1 over 336 frames.
+VIVOSDEV01_R043 THÀNH PHỐ CHƯA BÚ ĐƯỢC SỮA MẸ LẦN NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R044, best cost 2286.83 + 24895.7 = 27182.5 over 520 frames.
+VIVOSDEV01_R044 NGỌN LỬA BỎ ĐỘNG Ở TRUNG ĐÔNG VÀ PHÁ VỠ RỒI CHÍNH QUA BÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R055, best cost 743.171 + 10963 = 11706.2 over 257 frames.
+VIVOSDEV01_R055 VÀ RẤT SÁNG TẠO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R057, best cost 705.752 + 12532.1 = 13237.9 over 292 frames.
+VIVOSDEV01_R057 NHƯNG GIẤC NGỦ CHẬP CHỜN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R058, best cost 1044.87 + 18456.6 = 19501.5 over 376 frames.
+VIVOSDEV01_R058 GIÁM ĐỐC SỞ GIÁO DỤC ĐÀO TẠO NINH THUẬN CHO BIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R069, best cost 908.355 + 9086.95 = 9995.3 over 217 frames.
+VIVOSDEV01_R069 ĐEN BỊ HƯ DO BÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R071, best cost 1886.95 + 19975.2 = 21862.2 over 454 frames.
+VIVOSDEV01_R071 TRƯỞNG CÔNG AN XÃ TRÀ GIANG CAN NGĂN CŨNG BỊ TIỀN ĐÀNH TIẾP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R078, best cost 1821 + 17301.9 = 19122.9 over 373 frames.
+VIVOSDEV01_R078 NGHE CHÚNG TÔI HỎI ĐIỂM NÀY CHIẾN NHẠC RƯNG RƯNG NƯỚC MẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R086, best cost 1491.53 + 18783 = 20274.5 over 411 frames.
+VIVOSDEV01_R086 CÔNG VĂN ĐỀ NGHỊ TỈNH CON TUM XÂY DỰNG CỬA KHẨU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R089, best cost 1641.84 + 16984.9 = 18626.7 over 404 frames.
+VIVOSDEV01_R089 NHƯNG TÌNH YÊU VẪN NỒNG NÀN VÀ SAY ĐẮM NHƯ BUỔI BAN ĐẦU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R092, best cost 1123.74 + 13556.3 = 14680.1 over 301 frames.
+VIVOSDEV01_R092 DO CHÍNH PHỦ MỸ TIẾN HÀNH BẢO VIỆT NAM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R098, best cost 1246.12 + 13172.1 = 14418.2 over 286 frames.
+VIVOSDEV01_R098 TỈNH QUAN CHỈ ĐẠO VỚI DIỆT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R099, best cost 1721.2 + 17527.7 = 19248.9 over 386 frames.
+VIVOSDEV01_R099 NHƯNG TÔI THÍCH XEM BỘ PHIM CHUYỆN KHÁC THÌ SAO CHƯƠNG TRÌNH NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R108, best cost 1353.96 + 15205.1 = 16559 over 342 frames.
+VIVOSDEV01_R108 KHI CHẤM CÓ BỆNH THÌ SẼ CHÉM ĐẦU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R117, best cost 1117.47 + 12647.2 = 13764.6 over 273 frames.
+VIVOSDEV01_R117 VIỆC MỘT QUYỂN TIỂU THUYẾT NHƯ HỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R130, best cost 1490.47 + 16010.5 = 17501 over 370 frames.
+VIVOSDEV01_R130 NÃO BỘ CHÚNG TA PHÁT TRIỂN NHỮNG RUNG ĐỘNG YÊU THƯƠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R139, best cost 1052.67 + 14229.4 = 15282 over 317 frames.
+VIVOSDEV01_R139 TRỪ KHI BẠN BIẾT TÔN TRỌNG BẢN THÂN MÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R141, best cost 1223.48 + 14999.5 = 16223 over 326 frames.
+VIVOSDEV01_R141 NHỮNG CON ĐƯỜNG NGẮN NGỦI NHƯ NHỮNG NHÁT CẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R146, best cost 867.435 + 8873.41 = 9740.85 over 201 frames.
+VIVOSDEV01_R146 HIỆN RA TẬN PHÍA XA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R150, best cost 983.321 + 9947.11 = 10930.4 over 204 frames.
+VIVOSDEV01_R150 XIN ĐƯỢC TRƯỜNG CÙNG PHÁT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R151, best cost 1816.06 + 15922 = 17738.1 over 364 frames.
+VIVOSDEV01_R151 NHƯNG KHI TIẾN GẦN VÀO MÌNH THÌ MẶT BIỂN BỊ RẠN VỠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R164, best cost 1160.32 + 10640.9 = 11801.2 over 248 frames.
+VIVOSDEV01_R164 MỘT VÀO NGOÀI LẮC ĐẦU HỒI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R170, best cost 1470.82 + 14270.2 = 15741 over 326 frames.
+VIVOSDEV01_R170 ĐÔI BÀN TAY EM KHÔNG ĐƯỢC MỀM MẠI VÀ NÕN NÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R172, best cost 1787.63 + 16516 = 18303.6 over 370 frames.
+VIVOSDEV01_R172 TUY NHIÊN VẪN CÒN CẤT KHỎI CỔNG HƠI VÀ XOAN ÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R174, best cost 1198.31 + 14183.5 = 15381.8 over 311 frames.
+VIVOSDEV01_R174 NHỮNG DỰ ĐỊNH CẦN PHẢI ĐƯỢC BIẾN THÀNH HIỆN THỰC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R176, best cost 1355.83 + 15633.7 = 16989.5 over 342 frames.
+VIVOSDEV01_R176 ĐẤY TAO KHÔNG PHẢI TUỔI CẦU TÀU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R180, best cost 1411.57 + 17478.8 = 18890.4 over 392 frames.
+VIVOSDEV01_R180 VÀNG CHÓI SƠN BONG BÓNG MỀM RẤT PHỔ BIẾN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R187, best cost 1166.54 + 11946.4 = 13112.9 over 273 frames.
+VIVOSDEV01_R187 THẬT SỰ MÀ LÀ BỞI LÒNG ỦNG HỘ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_R188, best cost 1619.49 + 15635.1 = 17254.6 over 342 frames.
+VIVOSDEV01_R188 VIỆT QUÊ TÔI ĐỜI BÙNG NỔ LOẠI SÁCH NÀY LÀ DO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_T002, best cost 644.401 + 8879.35 = 9523.75 over 195 frames.
+VIVOSDEV01_T002 CŨNG CHƯA BIẾT NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_T030, best cost 819.43 + 8164.79 = 8984.22 over 192 frames.
+VIVOSDEV01_T030 XUÂN NÀY EM KHÔNG VỀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_T038, best cost 1246.29 + 12445.9 = 13692.2 over 248 frames.
+VIVOSDEV01_T038 CHẮC SẮP TỚI HỘI SẼ ĐI DU LỊCH THÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_T043, best cost 1029.78 + 10628.9 = 11658.7 over 242 frames.
+VIVOSDEV01_T043 NÓ TRỐN MẤT TIÊU RỒI CÒN ĐÂU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV01_T048, best cost 1202.97 + 10683.5 = 11886.5 over 236 frames.
+VIVOSDEV01_T048 HẠNH ĐÓ CÓ CÁI MIỆNG NHƯ ĐÀN BÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R005, best cost 1077.22 + 12488.5 = 13565.7 over 261 frames.
+VIVOSDEV02_R005 NHỚ TƯƠNG TỰ VẬY BA NĂM NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R009, best cost 1056.29 + 15239.7 = 16296 over 332 frames.
+VIVOSDEV02_R009 BAO QUANH VƯỜN ĐANG BẬN RỘN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R015, best cost 1202.66 + 16535.3 = 17737.9 over 336 frames.
+VIVOSDEV02_R015 TẤT CẢ MỌI THỨ ĐỀU CHỈ LÀ MỘT CÁCH DỊ THƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R027, best cost 1218.89 + 16265.7 = 17484.6 over 339 frames.
+VIVOSDEV02_R027 CÓ THỂ LÀM BẠN MÀ KHÔNG ĐỂ LẠI VẾT SẸO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R031, best cost 2133.02 + 24372 = 26505 over 536 frames.
+VIVOSDEV02_R031 MUA VÉ PHẢI TRẺ LÀM SAO CHO CÁC BỘ CƠ TRÊN MỌI MẶT LÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R032, best cost 1191.75 + 15554.3 = 16746 over 342 frames.
+VIVOSDEV02_R032 CHỈ ĐỂ BÌNH HƯNG HÒA BỊ HƯ HỎNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R045, best cost 1183.19 + 16844.3 = 18027.5 over 361 frames.
+VIVOSDEV02_R045 CÔ CƯỜI NHẸ TRÊN NÓC CÁ TRÊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R067, best cost 1066.63 + 16757.1 = 17823.7 over 392 frames.
+VIVOSDEV02_R067 ÔNG CHU TƯỚC ĐI BỘ NHƯ THẾ NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R068, best cost 806.094 + 13557.5 = 14363.6 over 304 frames.
+VIVOSDEV02_R068 CHUYỆN HAI CHA CON CHÁU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R069, best cost 788.26 + 11601.4 = 12389.6 over 248 frames.
+VIVOSDEV02_R069 LÀM ĐỀU KHÔNG ĐÚNG CÁCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R071, best cost 1909.1 + 22789 = 24698.1 over 492 frames.
+VIVOSDEV02_R071 MỖI KHI TRẺ LỚP ĐI NGANG QUA TÂM TRÍ MỚI ĐEM RA MỔ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R076, best cost 952.141 + 13116.8 = 14068.9 over 295 frames.
+VIVOSDEV02_R076 THAY VÌ BỐN GIỜ NHƯ TRƯỚC ĐÂY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R079, best cost 1854.31 + 19275.5 = 21129.8 over 401 frames.
+VIVOSDEV02_R079 HẦU HẾT CHAI NÀY CON VUÔNG GÓC VỚI RỪNG CHƠI TRÊN ĐỘNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R087, best cost 1789.21 + 21546.8 = 23336 over 467 frames.
+VIVOSDEV02_R087 VÌ MÀ ĐẦU XUÂN LAN TRÀN DẦU VÀ CÁC TUYẾN TRÊN NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R089, best cost 1627.62 + 21601.6 = 23229.2 over 473 frames.
+VIVOSDEV02_R089 CÓ HẲN MỘT LOẠT BÀI VIẾT CHUYÊN ĐỀ VỀ QUẢN TRỊ THƯƠNG HIỆU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R091, best cost 1020.15 + 13293.2 = 14313.3 over 298 frames.
+VIVOSDEV02_R091 HỢP VỚI HƯƠNG VỊ ĐẦU XUÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R099, best cost 2031.68 + 22618.1 = 24649.8 over 504 frames.
+VIVOSDEV02_R099 ÔNG NÓI Ở SÀI GÒN ÔNG VÀ LÀM ÔNG HỘI VỌNG GÌ THẾ NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R106, best cost 590.273 + 10791.7 = 11382 over 261 frames.
+VIVOSDEV02_R106 TRỞ NÊN THỤ ĐỘNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R122, best cost 1072.26 + 11540.5 = 12612.7 over 254 frames.
+VIVOSDEV02_R122 CÙNG KHUYA CHỜ HỎI GÌ NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R130, best cost 1519.24 + 20751.4 = 22270.6 over 439 frames.
+VIVOSDEV02_R130 CHƯA DÁM HỎI ANH THỀ SỐNG THỀ CHẾT ĐÃ KHÔNG CHO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R132, best cost 1626.44 + 18227.7 = 19854.1 over 386 frames.
+VIVOSDEV02_R132 VÌ VẬY LÊN DÂN TA CŨNG PHẢI ĐƯỢC MẤY ĐÚNG KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R135, best cost 1217.37 + 18531.7 = 19749.1 over 370 frames.
+VIVOSDEV02_R135 CŨNG THUỘC LOẠI GIẤY ĐẶC BIỆT TRONG HỆ MẶT TRỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R137, best cost 1186.33 + 16762.7 = 17949.1 over 354 frames.
+VIVOSDEV02_R137 CÁC VỤ THAM NHŨNG VÀ BÊ BỐI KINH TẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R149, best cost 1787.89 + 21714.6 = 23502.5 over 473 frames.
+VIVOSDEV02_R149 CHUNG CƯ CÔ LÙI LẠI MẶC DÙ PHƯƠNG TIỂU LONG XUYÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R154, best cost 2201.86 + 25118.5 = 27320.4 over 517 frames.
+VIVOSDEV02_R154 MỘT BUỒNG DƯỚI RA TRỊ CHO VAY RA CÁI GÌ CẢ ĐỂ KIỀM CHẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R164, best cost 1466.24 + 17357.9 = 18824.1 over 364 frames.
+VIVOSDEV02_R164 CÁC TUYẾN TRÊN TRANG NHẤT PHẦN LỚN ĐỀU KHÔNG TỐT VÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R170, best cost 1979.89 + 22585.7 = 24565.6 over 492 frames.
+VIVOSDEV02_R170 RỒI CHẠY SANG GÕ CỬA PHÒNG BÀ LÊN HAI DẤM DÚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R173, best cost 1010.6 + 13967.4 = 14977.9 over 320 frames.
+VIVOSDEV02_R173 ĐỂ CHA TRỞ LẠI THÁI DƯƠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R181, best cost 1683.38 + 18943.4 = 20626.8 over 411 frames.
+VIVOSDEV02_R181 MÀ CÓ ĐÔI MẮT VÀO SÂU VÀO TÌNH TRẠNG GIỐNG MÌNH MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R192, best cost 1450.69 + 23649 = 25099.7 over 492 frames.
+VIVOSDEV02_R192 TÔI TỰ HỎI PHẢI CHĂNG ĐÓ LÀ CHO TRẺ EM CÒN QUÁ TRẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R195, best cost 1515.95 + 19975.4 = 21491.3 over 404 frames.
+VIVOSDEV02_R195 ỦY BAN CHÂU ÂU KÊU GỌI NHỮNG QUỐC GIA PHÁT TRIỂN TRỞ LẠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_R200, best cost 1139.51 + 15967.6 = 17107.1 over 332 frames.
+VIVOSDEV02_R200 VÀ KHI CHÚNG TA SAO NHÃNG CÔNG VIỆC CỦA MÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T004, best cost 1107.66 + 13469.4 = 14577.1 over 292 frames.
+VIVOSDEV02_T004 HÔM NAY EM CÓ VỚI MẮM KHÁC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T012, best cost 1372.13 + 15018.4 = 16390.6 over 336 frames.
+VIVOSDEV02_T012 MẤY GIỜ CHƠI VỚI TAO ĐÃ TRÌNH DIỄN BÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T013, best cost 1481.18 + 17739.3 = 19220.5 over 367 frames.
+VIVOSDEV02_T013 ĐỘNG CỦA HỌ VÌ KHÔNG ĐƯỢC ĐỂ THẤM VÀO ĐÂY NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T015, best cost 1389.14 + 15970.7 = 17359.8 over 336 frames.
+VIVOSDEV02_T015 ANH CHƠI VỚI ANH VÌ SAO ANH KHÔNG CHÊ VỢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T022, best cost 1974.69 + 19941.9 = 21916.6 over 423 frames.
+VIVOSDEV02_T022 VÀ CHƯA CHỒNG VỀ MẤY NGÀY MƯỜI NĂM THU THẤY ÔNG KINH KHỦNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T031, best cost 932.413 + 10204.1 = 11136.5 over 223 frames.
+VIVOSDEV02_T031 CHO EM RUỘT MỘT VIÊN GẠCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T043, best cost 1426.4 + 17526.1 = 18952.5 over 376 frames.
+VIVOSDEV02_T043 VIỆC KIỂM TRA LẠI VÀ SĨ KHUYÊN NÊN MỔ NỘI SOI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV02_T050, best cost 1067.76 + 15292.6 = 16360.4 over 329 frames.
+VIVOSDEV02_T050 ANH BIẾT CHẠY TUYẾN HÀ NỘI VÀ SÀI GÒN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R007, best cost 1311 + 13809.2 = 15120.2 over 311 frames.
+VIVOSDEV03_R007 MỘT CHUYẾN DU LỊCH DÃ NGOẠI TẠI BÒ CẠP VÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R010, best cost 1110.26 + 11990.9 = 13101.2 over 267 frames.
+VIVOSDEV03_R010 ÂM THẦM CHẮT CHIU NUÔI TÔI KHÔN LỚN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R020, best cost 2536.42 + 20360.9 = 22897.4 over 461 frames.
+VIVOSDEV03_R020 BÊN TRONG TRÁI VẢ KHI BỔ RA SẼ RỘNG CHỨ KHÔNG ĐẶT NHƯ TRÁI SUNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R029, best cost 1997.5 + 19309.1 = 21306.6 over 467 frames.
+VIVOSDEV03_R029 NÊN HAI MỐ CẦU BỊ SẬP ĐẤT KHIẾN LỐI ĐI BỘ QUÁ NGUY HIỂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R041, best cost 1287.04 + 12991.2 = 14278.3 over 292 frames.
+VIVOSDEV03_R041 LUÔN ỔN ĐỊNH VÀ CÁC XE TRÂU KHẢ NĂNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R044, best cost 987.775 + 11676.6 = 12664.4 over 292 frames.
+VIVOSDEV03_R044 VÀ KHI HỌ VÀ TÓC RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R046, best cost 1144.1 + 13296.5 = 14440.6 over 292 frames.
+VIVOSDEV03_R046 CỦA CHÍNH SÁCH ĐỐI VỚI QUY MÔ CỦA THỊ TRƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R056, best cost 1158.78 + 11900.9 = 13059.6 over 261 frames.
+VIVOSDEV03_R056 SƯƠNG MÙ ĐÃ ĐÓNG THÀNH NHỮNG HẠT VÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R057, best cost 1031.45 + 9857.07 = 10888.5 over 226 frames.
+VIVOSDEV03_R057 CHỨ KHÔNG PHẢI TÀI NĂNG THIÊN BẨM NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R061, best cost 1315.24 + 11627.2 = 12942.4 over 254 frames.
+VIVOSDEV03_R061 VÀ TIÊN TRONG LẦN CHÚNG SẼ VUI TAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R082, best cost 2100.71 + 17269 = 19369.7 over 392 frames.
+VIVOSDEV03_R082 GHÉP CÀNH MAI DẠO VÀO THÂN CỔ THỤ CHO HOA CÁNH LỚN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R092, best cost 1057.83 + 10917.4 = 11975.2 over 248 frames.
+VIVOSDEV03_R092 ĐỂ CHỌN MÁY IN CHO PHÙ HỢP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R109, best cost 816.3 + 7627.99 = 8444.29 over 164 frames.
+VIVOSDEV03_R109 PHÙ HỢP CHO MỌI TÍNH NĂNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R113, best cost 1179.43 + 12709 = 13888.4 over 261 frames.
+VIVOSDEV03_R113 VÌ BẠN CÓ THỂ LẤY CÓ TÌNH CÓ MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R117, best cost 766.902 + 8263.27 = 9030.17 over 176 frames.
+VIVOSDEV03_R117 VAI TRÒ CỦA CHẾ ĐỘ DINH DƯỠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R119, best cost 414.533 + 5780.66 = 6195.2 over 139 frames.
+VIVOSDEV03_R119 KHÔNG HIỂU SAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R120, best cost 804.236 + 9119.71 = 9923.95 over 204 frames.
+VIVOSDEV03_R120 KHIẾN PHỤ HUYNH HIỂU NHẦM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R125, best cost 763.799 + 7723.95 = 8487.75 over 182 frames.
+VIVOSDEV03_R125 MỖI KHI TỰ DO ĐẾN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R136, best cost 1880 + 15887 = 17767 over 342 frames.
+VIVOSDEV03_R136 NÀY BÓN CHO CON THƯỜNG ĐỢT YÊU ĐẦU CÒI CỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R142, best cost 939.395 + 10729 = 11668.4 over 248 frames.
+VIVOSDEV03_R142 TRONG TƯ THẾ KHI NGƯỜI CHỒNG LÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R144, best cost 806.974 + 7282.48 = 8089.45 over 161 frames.
+VIVOSDEV03_R144 MÀ CŨNG ĐẦY TINH KHIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R148, best cost 1258.15 + 13608.3 = 14866.5 over 298 frames.
+VIVOSDEV03_R148 MỘT VỤ TRỌNG ĐIỂM ĐÃ KHIẾN NGỌN LỬA BÙNG LÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R149, best cost 527.156 + 6749.37 = 7276.53 over 154 frames.
+VIVOSDEV03_R149 BÀ CON TRONG XÓM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R156, best cost 1279.13 + 14031.4 = 15310.5 over 286 frames.
+VIVOSDEV03_R156 ĐÂY LÀ MỨC LÃI SUẤT THẤP NHẤT CỦA CÁC PHIÊN ĐẤU THẦU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R160, best cost 818.812 + 9547.23 = 10366 over 214 frames.
+VIVOSDEV03_R160 DỌC HAI BÊN SÔNG NGÀN SÂU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R163, best cost 647.507 + 7291.3 = 7938.8 over 161 frames.
+VIVOSDEV03_R163 NHƯNG OÁI OĂM HAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R180, best cost 554.426 + 6518.58 = 7073.01 over 154 frames.
+VIVOSDEV03_R180 SAO CẢI CÁCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R182, best cost 1192.84 + 13045.2 = 14238.1 over 273 frames.
+VIVOSDEV03_R182 MỘT KẾ HOẠCH TƯƠNG TỰ ĐƯỢC ÁP DỤNG LỆNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R191, best cost 666.011 + 7137.67 = 7803.68 over 167 frames.
+VIVOSDEV03_R191 CƯỠI NGỰA ĐI THI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R193, best cost 406.315 + 5708.57 = 6114.88 over 142 frames.
+VIVOSDEV03_R193 ÔI DÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R195, best cost 1541.83 + 14703.8 = 16245.6 over 304 frames.
+VIVOSDEV03_R195 KHÔNG MỘT CHIẾC XE LÀ NÓ CÓ THỂ MON MEN VÀO ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_R198, best cost 1192.56 + 12136.1 = 13328.7 over 254 frames.
+VIVOSDEV03_R198 RỒI ĐI KHẮP NƠI TÌM THẦY CHỮA BỆNH CHO ANH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T009, best cost 742.639 + 8653.01 = 9395.65 over 189 frames.
+VIVOSDEV03_T009 VÀ ĐANG SUY NGHĨ GÌ THẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T017, best cost 1006.11 + 11219.6 = 12225.8 over 239 frames.
+VIVOSDEV03_T017 BÀ VẪN CHƯA ĐƯA TIỀN CHO TÔI NHÉ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T018, best cost 602.855 + 6922.1 = 7524.96 over 173 frames.
+VIVOSDEV03_T018 TÔI ĐANG BẬN HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T023, best cost 1284.39 + 12818.7 = 14103 over 279 frames.
+VIVOSDEV03_T023 CÔ BÉ ĐƯỜNG CÔNG AN CHỈ LÀ HẠ SÁCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T035, best cost 1041.44 + 10277.9 = 11319.3 over 229 frames.
+VIVOSDEV03_T035 MẸ ƠI CON MUA ĐỒ CHO CON KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T041, best cost 1233.4 + 11460.1 = 12693.5 over 251 frames.
+VIVOSDEV03_T041 CON CHÓ LỦI THỦI ĐI THEO CHỦ NÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T047, best cost 1088.56 + 10409.5 = 11498 over 226 frames.
+VIVOSDEV03_T047 TRONG PHIM CÓ NHIỀU CÁNH CHIM DIỆC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV03_T048, best cost 1060.83 + 10020.8 = 11081.7 over 223 frames.
+VIVOSDEV03_T048 DIỄN VIÊN CHÍNH ĐỨNG NHƯ KHÚC GỖ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R002, best cost 960.282 + 15912.2 = 16872.5 over 336 frames.
+VIVOSDEV04_R002 ĐÓ CŨNG LÀ ĐỘNG LỰC THÚC ĐẨY TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R004, best cost 1267.86 + 16654.3 = 17922.2 over 354 frames.
+VIVOSDEV04_R004 ĐƯỢC KHI BỌN CŨNG CÓ THỂ LÀM NHỮNG ĐIỀU ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R008, best cost 2023.49 + 30736.8 = 32760.3 over 642 frames.
+VIVOSDEV04_R008 NHỮNG NGÀY ĐẦU VẮNG BÓNG BÀN VIỆT CỨ THƯ NGƯỜI YÊU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R010, best cost 1334.18 + 18341.5 = 19675.7 over 373 frames.
+VIVOSDEV04_R010 CON NHỎ MỘT CÁI TÚI MỘT ĐIỀU KIỆN CỦA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R013, best cost 1469.4 + 17610.5 = 19079.9 over 382 frames.
+VIVOSDEV04_R013 NGHĨA LÀ KIM CÒN NÓNG TÍNH HỆ SAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R023, best cost 2129.44 + 27749.3 = 29878.7 over 636 frames.
+VIVOSDEV04_R023 CHÍNH VỢ CŨNG LÀ NGƯỜI ĐỨNG ĐẦU NIỀM ĐAM MÊ DIỄN XUẤT CỦA CỦA CON GÁI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R047, best cost 1709.84 + 21217.1 = 22926.9 over 426 frames.
+VIVOSDEV04_R047 NHÓM SINH VIÊN TẠI TRƯỜNG CÙNG KHÓC MẮT THẰNG TÍ CHÚT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R049, best cost 544.912 + 8510.7 = 9055.62 over 204 frames.
+VIVOSDEV04_R049 VÌ TỘI ĐỒ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R051, best cost 799.277 + 9988.97 = 10788.2 over 223 frames.
+VIVOSDEV04_R051 GẶP BẦU MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R056, best cost 1168.14 + 13284.4 = 14452.6 over 307 frames.
+VIVOSDEV04_R056 GÍ NGÓN THON VÀO RUỘNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R063, best cost 1401.47 + 18830.4 = 20231.9 over 386 frames.
+VIVOSDEV04_R063 TRONG SỐ NẠN REO KHÓC SUỐT ĐÊM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R081, best cost 1441.49 + 15276.6 = 16718.1 over 317 frames.
+VIVOSDEV04_R081 VỢ TÔI THOÁNG QUA VẪN KHỔ VĂN LƯƠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R086, best cost 1910.99 + 23988.3 = 25899.2 over 511 frames.
+VIVOSDEV04_R086 TAY KIA XÁCH MỘT TAY DÙNG MÀN CHỨC VĨNH LONG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R089, best cost 782.258 + 11133.6 = 11915.9 over 229 frames.
+VIVOSDEV04_R089 VŨ TRANG ĐIỂM KHÔNG PHÙ HỢP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R092, best cost 1233.94 + 14983.3 = 16217.3 over 304 frames.
+VIVOSDEV04_R092 VIỆC CỦA CÔ GÁI BỘ VÁY RÁO RIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R095, best cost 1466.51 + 19729.9 = 21196.4 over 423 frames.
+VIVOSDEV04_R095 TRƠ TRỌI GIỮA ĐỒNG CÁI NHÌN KHÓ KHỎI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R097, best cost 862.81 + 11595.8 = 12458.6 over 236 frames.
+VIVOSDEV04_R097 NGOÀI VIỆC PHÁT HIỆN CÁC THỦ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R100, best cost 424.926 + 5844.41 = 6269.33 over 136 frames.
+VIVOSDEV04_R100 BÀ NỘI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R114, best cost 1153.87 + 13628 = 14781.9 over 279 frames.
+VIVOSDEV04_R114 CŨNG CHẲNG CÒN XÚNG XÍNH QUẦN ÁO MỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R118, best cost 952.939 + 11171.8 = 12124.8 over 239 frames.
+VIVOSDEV04_R118 TRẺ EM ĐÂU CÓ CHƯỚNG NGẠI VẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R126, best cost 1225.79 + 11639 = 12864.7 over 239 frames.
+VIVOSDEV04_R126 TÔI KHÔNG NÓI LẦM CỦA BÀI TẬP PHÒNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R127, best cost 1266.68 + 16219.9 = 17486.6 over 345 frames.
+VIVOSDEV04_R127 RẤT NHIỀU GỬI GẮM VÀO KỲ VỌNG CON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R129, best cost 1211.76 + 10060.1 = 11271.8 over 217 frames.
+VIVOSDEV04_R129 ĐOÀN THU LUẬN VIỆC GÌ XUẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R132, best cost 1232.27 + 16901.6 = 18133.9 over 336 frames.
+VIVOSDEV04_R132 CHỦ TỊCH NƯỚC ĐÃ ĐẾN KIỂM TRA TIẾN ĐỘ THI CÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R149, best cost 1565.96 + 21164 = 22730 over 470 frames.
+VIVOSDEV04_R149 MỘT CÔ GÁI PHẢI NHIÊN CŨNG CẦN CHẠY LÊN HỌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R152, best cost 1758.92 + 21714.9 = 23473.8 over 451 frames.
+VIVOSDEV04_R152 SẼ KHÔNG KHIẾN BẠN TRÔNG GẦY NHƯ NHỮNG TRONG PHỦ MỘT MÀU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R162, best cost 1293.54 + 12682.9 = 13976.4 over 267 frames.
+VIVOSDEV04_R162 CUỐI CHỈ MỚI VÀO LƯỚI NHẶT BÓNG HAI LẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R182, best cost 1462.67 + 16940.2 = 18402.9 over 354 frames.
+VIVOSDEV04_R182 HÁT CHỈ BIẾT BẰNG CÁCH RỦ LẬU CỔ VẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R186, best cost 775.493 + 9019.32 = 9794.81 over 192 frames.
+VIVOSDEV04_R186 NHẰM TẠO RA SỰ HẤP DẪN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R187, best cost 1438.07 + 15729.9 = 17167.9 over 323 frames.
+VIVOSDEV04_R187 THỨ ÂM THANH KHÔNG CHỈ CẤM NHÂN BẢN TÍNH CHẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_R189, best cost 1883.76 + 16881.3 = 18765 over 336 frames.
+VIVOSDEV04_R189 TỪ ĐẦU CỦA RỪNG CỦA MỘT CỦA BÀI VIẾT CHO MAI MỘT QUAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T002, best cost 1268.21 + 14296.1 = 15564.3 over 298 frames.
+VIVOSDEV04_T002 CÓ TRỢ TIỀN CHO BỐ KHÔNG THÌ BẢO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T003, best cost 1194.13 + 14017.5 = 15211.6 over 295 frames.
+VIVOSDEV04_T003 NHẬN ĐƯỢC TIN NÀY CÓ LỢI CHO TÔI GẶP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T009, best cost 1174.87 + 11434.3 = 12609.1 over 254 frames.
+VIVOSDEV04_T009 CHO TÔI NHỮNG ĐẠI CHÍNH NÓ CŨNG ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T015, best cost 1336.7 + 16813.3 = 18150 over 332 frames.
+VIVOSDEV04_T015 MỘT LÀ LẬP LẠI TẤT CẢ CÁC KIẾM PHỔ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T018, best cost 1057.75 + 13104.9 = 14162.6 over 257 frames.
+VIVOSDEV04_T018 NHỮNG SAI LẦM KHI ĐI CHỖ KHÁC SAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T029, best cost 1449.32 + 14916.4 = 16365.7 over 304 frames.
+VIVOSDEV04_T029 ANH ĐI CÔNG TÁC CẦN CÓ TUẦN SAU MUA VỀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T032, best cost 997.41 + 10241.6 = 11239 over 198 frames.
+VIVOSDEV04_T032 CÔNG SAN LẤP VÒ CÔNG CHÚA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T035, best cost 1189.47 + 12870.7 = 14060.1 over 267 frames.
+VIVOSDEV04_T035 ANH TRÊN EM ĐIỆP VIÊN CHUYÊN GIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV04_T044, best cost 1028.25 + 11655.5 = 12683.7 over 267 frames.
+VIVOSDEV04_T044 BỎ LẠI CHỈ DO BỘ PHÁT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_004, best cost 1702.53 + 19148.4 = 20850.9 over 404 frames.
+VIVOSDEV05_004 HÃY TƯỞNG TƯỢNG RẰNG BẠN LÀ GIÁM ĐỐC DỰ ÁN TRONG MỘT CÔNG TY LỚN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_030, best cost 781.219 + 10578.4 = 11359.6 over 236 frames.
+VIVOSDEV05_030 CỦA NHỮNG THẾ LỰC HÙNG MẠNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_037, best cost 622.659 + 8284.93 = 8907.59 over 192 frames.
+VIVOSDEV05_037 ÔNG NHẶT NÓ LÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_043, best cost 980.692 + 13739.2 = 14719.9 over 298 frames.
+VIVOSDEV05_043 NGUYÊN THỨ TRƯỞNG MAI VĂN DÂU ĐÃ BỊ BẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_055, best cost 1410.59 + 15967.6 = 17378.2 over 332 frames.
+VIVOSDEV05_055 NHƯNG MỨC ÁN TỬ HÌNH ĐỐI VỚI CÁC BỊ CÁO LÀ TƯƠNG XỨNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_065, best cost 1342.53 + 16341.4 = 17683.9 over 364 frames.
+VIVOSDEV05_065 NHỮNG NGƯỜI SỐNG THÌ THA THẨN TRONG NHÀ NGOÀI NGÕ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_087, best cost 1064.02 + 10894.1 = 11958.2 over 239 frames.
+VIVOSDEV05_087 CẢ KHÔNG GIAN NHUỐM MÀU TRO BẾP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_091, best cost 511.33 + 8364.05 = 8875.38 over 204 frames.
+VIVOSDEV05_091 TRÀN DẦU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_097, best cost 935.996 + 8977.65 = 9913.65 over 211 frames.
+VIVOSDEV05_097 THỤ CHẬM NÓI RẤT HIỀN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_107, best cost 1915.42 + 20585.1 = 22500.6 over 486 frames.
+VIVOSDEV05_107 TRONG MỘT CÔ NÀNG ĐỒN NGƯỜI LÊN LƯNG ANH NGƯỜI YÊU DẠY CON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_109, best cost 849.12 + 11400.6 = 12249.7 over 254 frames.
+VIVOSDEV05_109 DOANH NGHIỆP TUYỂN DỤNG LAO ĐỘNG NƯỚC NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_115, best cost 1183.01 + 17125.2 = 18308.3 over 386 frames.
+VIVOSDEV05_115 THỜI HẠN SỬ DỤNG VÀ LOẠI SẢN PHẨM BỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_119, best cost 1716.62 + 17118.3 = 18835 over 392 frames.
+VIVOSDEV05_119 MÀ CÒN BỊ NHỮNG BỘ MẶT LẠNH TIỆT KIA BỆNH HOẠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_120, best cost 1282.15 + 13337.6 = 14619.7 over 301 frames.
+VIVOSDEV05_120 NHƯNG MÙI HÔI VẪN SÓC BẢO TÀNG HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_125, best cost 756.886 + 9458.05 = 10214.9 over 223 frames.
+VIVOSDEV05_125 ĐANG LÀM VIỆC KHÔNG NGỪNG NGHỈ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_129, best cost 1059.54 + 10998.1 = 12057.6 over 232 frames.
+VIVOSDEV05_129 THU HÚT RẤT LÀ NHIỀU LOÀI CHIM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_135, best cost 1528.7 + 16041.6 = 17570.3 over 348 frames.
+VIVOSDEV05_135 KHI CÔ THỂ HIỆN KHÔNG MẤY THÀNH CÔNG Ở LỄ KHAI MẠC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_136, best cost 797.551 + 9363.61 = 10161.2 over 211 frames.
+VIVOSDEV05_136 RA HIỆU CHO TÔI IM LẶNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_143, best cost 1910.99 + 19543.1 = 21454.1 over 432 frames.
+VIVOSDEV05_143 NHỎ ĐƯA TAY RA CAO HẾT BUỒN KHỔ TRÊN CỔ TƠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_150, best cost 1158.53 + 11991.9 = 13150.4 over 267 frames.
+VIVOSDEV05_150 NGỒI CHỒM CHỖM CÁC CHỊ MẤY MÉT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_155, best cost 922.174 + 10256.5 = 11178.6 over 236 frames.
+VIVOSDEV05_155 NỬA VÒNG TRÁI ĐẤT HƠN BẢY NĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_170, best cost 1300.59 + 16891.2 = 18191.8 over 386 frames.
+VIVOSDEV05_170 TRĂM NĂM BẮT XU HƯỚNG PHÁT TRIỂN CÔNG NGHỆ MỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_185, best cost 1048.05 + 11206.6 = 12254.7 over 254 frames.
+VIVOSDEV05_185 MÀ MƯỜNG TƯỢNG RA HÌNH BÓNG MẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_189, best cost 943.215 + 10894.2 = 11837.4 over 242 frames.
+VIVOSDEV05_189 MỖI NGƯỜI MỘT SỐ PHẬN EM À 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_199, best cost 1151.89 + 11632.3 = 12784.2 over 292 frames.
+VIVOSDEV05_199 LẦN NỮA MÀY MỚI GẶP ĐƯỢC TUYÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_200, best cost 1272.6 + 11461.9 = 12734.5 over 273 frames.
+VIVOSDEV05_200 LÀM ĐƯỜNG DÂY ĐỂ NỘI CÁC MẢNH ĐỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_202, best cost 2098.19 + 18102.9 = 20201.1 over 382 frames.
+VIVOSDEV05_202 CHỊ HAI CHỦ QUẢN NGÀY BẠN CÀNG RÔM RẢ CŨNG RA GÓP CHUYỆN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_206, best cost 2019.85 + 20100.1 = 22120 over 454 frames.
+VIVOSDEV05_206 TỨC KHẮC THẬT VỀ KÉO MỌI NGƯỜI THỨ TRỞ LẠI THỜI HOÀNG SƠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_209, best cost 1176.08 + 14342.9 = 15518.9 over 317 frames.
+VIVOSDEV05_209 TÊN GỌI TẠI ĐỊA PHƯƠNG LÀ CÁC HỘI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_212, best cost 1135.27 + 11583.3 = 12718.6 over 261 frames.
+VIVOSDEV05_212 BỐN CHIẾC TRONG ĐÀI SEN LÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_226, best cost 902.212 + 10000.4 = 10902.6 over 204 frames.
+VIVOSDEV05_226 MỘT CÚ HOẶC KHÔNG CHÍNH XÁC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_231, best cost 1159.04 + 17168.7 = 18327.8 over 361 frames.
+VIVOSDEV05_231 MỚI ĐÂY NHẤT LÀ CÁC TIỂU VƯƠNG QUỐC Ả RẬP THỐNG NHẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_238, best cost 1199.33 + 14267.9 = 15467.2 over 304 frames.
+VIVOSDEV05_238 CỘNG ĐỒNG NGƯỜI MÊ TOÁN HỌC TRÊN TOÀN THẾ GIỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_249, best cost 1660.18 + 18602.6 = 20262.8 over 411 frames.
+VIVOSDEV05_249 TÔI NGHĨ THỦ TƯỚNG SẼ KHÔNG ĐỂ TRÁNH BẤT CỨ CÂU HỎI NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_251, best cost 999.18 + 11843.6 = 12842.8 over 248 frames.
+VIVOSDEV05_251 BỌN BUÔN LẬU MA TÚY VÀ VŨ KHI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_261, best cost 1527.81 + 15707.6 = 17235.5 over 354 frames.
+VIVOSDEV05_261 LẠI QUAY RA TẬP VIẾT BÁO RỒI CƯỜI VU VƠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_263, best cost 2144.45 + 22018.5 = 24162.9 over 442 frames.
+VIVOSDEV05_263 NGHE TIẾNG XÌNH XỊCH XA XA THÌ ĐOÁN TRÚNG PHÓC LÀ HÚT HẦM CẦU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_270, best cost 660.579 + 9146.1 = 9806.68 over 217 frames.
+VIVOSDEV05_270 CHƯA RỤC RỊCH GÌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_286, best cost 1287.33 + 16075.9 = 17363.3 over 361 frames.
+VIVOSDEV05_286 THẾ NHƯNG KHI GIÁ PHÔI THÉP THẾ GIỚI CAO DẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV05_295, best cost 1046.8 + 13464.2 = 14511 over 279 frames.
+VIVOSDEV05_295 LÀM HỎNG CÁC THIẾT BỊ CỦA TÊN LỬA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_001, best cost 939.159 + 12531.2 = 13470.4 over 267 frames.
+VIVOSDEV06_001 ĐƠN GIẢN LÀ TÁN GẪU VỚI NHAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_006, best cost 1221.89 + 14805.6 = 16027.5 over 323 frames.
+VIVOSDEV06_006 MÀ DO LỐI SỐNG CHUI NHỦI CỦA CHÚNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_016, best cost 1129.52 + 12846.5 = 13976 over 317 frames.
+VIVOSDEV06_016 RÂU RIA ĐÃ BA NGÀY KHÔNG CAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_021, best cost 734.26 + 10317.2 = 11051.4 over 254 frames.
+VIVOSDEV06_021 MỘT ĐƯỜNG HƯỚNG CHUYÊN NGHIỆP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_022, best cost 1121.26 + 14084.4 = 15205.6 over 311 frames.
+VIVOSDEV06_022 LÍNH CỨU HỎA CÓ TIẾP CẬN HIỆN TRƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_034, best cost 1990.05 + 22020 = 24010.1 over 495 frames.
+VIVOSDEV06_034 NHỮNG NGƯỜI TRÊN GHE CỦA CÔNG AN ĐÃ NHẮM THẲNG VÀO GHÊ ANH CHỦ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_037, best cost 1257.46 + 12227.9 = 13485.3 over 279 frames.
+VIVOSDEV06_037 ĐỪNG BUỒN VÌ TỪ GẦN VẠCH MÌNH NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_040, best cost 1413.67 + 15510.1 = 16923.7 over 367 frames.
+VIVOSDEV06_040 VÀ HÍT VÀO MŨI LÀM CHẤT NÀY LÀM RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_042, best cost 1363.17 + 16775.4 = 18138.6 over 367 frames.
+VIVOSDEV06_042 ĐANG HẤP DẪN CÁC TẬP ĐOÀN PHÂN PHỐI ĐA QUỐC GIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_054, best cost 1617.67 + 16128.4 = 17746 over 367 frames.
+VIVOSDEV06_054 DÙ LÀ ĐẦU SỨC MẠNH HOẶC CÁI BÓNG KHỦNG LONG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_061, best cost 1685.62 + 20200.9 = 21886.5 over 454 frames.
+VIVOSDEV06_061 VÌ NÓ KHÔNG NHẮC ĐẾN NHỮNG CUỘC TẤN CÔNG NHẰM VÀO NGƯỜI DO THAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_070, best cost 1713.89 + 16605.8 = 18319.6 over 379 frames.
+VIVOSDEV06_070 RỒI THIỆT RA ĐÔI CÂU VỌNG CỔ VỚI TRÊN CHUỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_078, best cost 871.503 + 11612 = 12483.5 over 289 frames.
+VIVOSDEV06_078 Ở LỚP NẤU ĂN GIA ĐÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_079, best cost 1395.88 + 18007.4 = 19403.3 over 442 frames.
+VIVOSDEV06_079 MÀ BẠN CÓ THỂ THAM KHẢO ĐỂ LÀM ĐẸP GIAN BẾP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_098, best cost 1736.33 + 18612.2 = 20348.6 over 451 frames.
+VIVOSDEV06_098 CÁI VIỆC GIẾT CHẾT BÀ ĐANG NGẬP CỦA CÀ PHÊ NGUYÊN CHẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_103, best cost 1659.67 + 20938.2 = 22597.9 over 479 frames.
+VIVOSDEV06_103 CÁC EM NHỎ SẼ KHÔNG CÒN PHẢI ĐI TRÊN NHỮNG CHUYẾN ĐÒ NGUY HIỂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_108, best cost 1372.85 + 15467.8 = 16840.7 over 386 frames.
+VIVOSDEV06_108 LÀM CÔ NÀNG RÕ RỆT THỨC TRẮNG CẢ ĐÊM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_117, best cost 2100.82 + 21806.5 = 23907.3 over 470 frames.
+VIVOSDEV06_117 GIẢI QUYẾT KHỐI U UNG NHỌT NÀY PHẢI CẦN ĐẾN MỘT CUỘC ĐẠI PHẪU NGHIÊM TÚC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_126, best cost 1570.26 + 18352.3 = 19922.6 over 392 frames.
+VIVOSDEV06_126 THẬM CHÍ CÀNG DỤNG NÀO QUYỀN NĂNG GAN MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_139, best cost 927.202 + 12441 = 13368.2 over 304 frames.
+VIVOSDEV06_139 CÒN BỘ KHANG HY TỰ ĐIỂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_143, best cost 2119.96 + 18971.6 = 21091.5 over 442 frames.
+VIVOSDEV06_143 ĐÔI MÔI MẸ PHẢI SỐNG MẤP MÁY MỘT LỜI CA HOÀNG HOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_157, best cost 1704.25 + 19837 = 21541.2 over 470 frames.
+VIVOSDEV06_157 SỐ KHÁC SUY ĐOÁN RẰNG ANH TA HÀNH ĐỘNG NGANG TẦM VAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_168, best cost 505.319 + 6406.36 = 6911.68 over 161 frames.
+VIVOSDEV06_168 LÀM KHUÔN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_184, best cost 1808.16 + 20509.7 = 22317.9 over 479 frames.
+VIVOSDEV06_184 HOẶC BẠN SẼ ĐẾN ĐÂY VỚI MỘT TÂM TRẠNG CHEN NGANG VÔ CÙNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_195, best cost 888.401 + 13499.8 = 14388.2 over 298 frames.
+VIVOSDEV06_195 PHẢI ĐƯỢC THỰC HIỆN TRÊN CƠ SỞ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_210, best cost 811.207 + 10874.5 = 11685.7 over 282 frames.
+VIVOSDEV06_210 HAI MƯƠI SÁU HAI MƯƠI BÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_212, best cost 727.216 + 8664.45 = 9391.66 over 223 frames.
+VIVOSDEV06_212 BÀ MƯỜI BA MƯỜI MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_222, best cost 629.418 + 10594.9 = 11224.3 over 273 frames.
+VIVOSDEV06_222 NĂM MƯỜI NĂM MƯƠI MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_240, best cost 744.08 + 13232.9 = 13976.9 over 336 frames.
+VIVOSDEV06_240 TÁM MƯƠI SÁU TÁM MƯƠI BẢY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_241, best cost 737.886 + 11770.5 = 12508.3 over 279 frames.
+VIVOSDEV06_241 TÁM MƯƠI TÁM TÁM MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_247, best cost 775.592 + 11616.4 = 12392 over 304 frames.
+VIVOSDEV06_247 MỘT TRĂM MỘT HAI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_248, best cost 840.619 + 11916 = 12756.6 over 304 frames.
+VIVOSDEV06_248 MỘT BA NĂM BẢY CHÍNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_252, best cost 706.047 + 12155.9 = 12861.9 over 301 frames.
+VIVOSDEV06_252 NÓI TRƯỚC BƯỚC KHÔNG QUA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_253, best cost 1316.18 + 12687 = 14003.2 over 336 frames.
+VIVOSDEV06_253 CHẲNG LÀ MẤY HÔM NAY TÔI ĐAU BỤNG QUA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_261, best cost 965.357 + 13059.7 = 14025.1 over 336 frames.
+VIVOSDEV06_261 SAU KẾT QUẢ LÀ TAY VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_272, best cost 1214.19 + 16099.7 = 17313.9 over 417 frames.
+VIVOSDEV06_272 TÔI CHỈ MUỐN XEM NHỮNG ĐOẠN HAY MÀ THÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_285, best cost 964.539 + 15360.4 = 16324.9 over 354 frames.
+VIVOSDEV06_285 CÔNG TY TRÁCH NHIỆM HỮU HẠN ĂN UỐNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_286, best cost 1240.78 + 15653.3 = 16894.1 over 382 frames.
+VIVOSDEV06_286 KHI CHUYỂN GIAO CÔNG NGHỆ LÀ BA CHỤC NGÀN ĐỒNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_287, best cost 1157.73 + 14823.3 = 15981 over 354 frames.
+VIVOSDEV06_287 LƯƠNG BA CỌC BA ĐỒNG THÌ NGƯỜI ĐƯỢC HAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV06_296, best cost 732.304 + 9890.44 = 10622.7 over 254 frames.
+VIVOSDEV06_296 CÔ ẤY ĐÃ QUA CHUYỆN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_002, best cost 1536.75 + 17208.9 = 18745.7 over 345 frames.
+VIVOSDEV07_002 HẰNG NĂM CHÚNG TA THẤY RA HÀNG TY THIẾT BỊ ĐIỆN TỬ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_025, best cost 1015.37 + 13879 = 14894.3 over 304 frames.
+VIVOSDEV07_025 CHO NHỮNG CHUYẾN DÃ NGOẠI CỦA DU KHÁCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_030, best cost 612.377 + 10742.1 = 11354.5 over 229 frames.
+VIVOSDEV07_030 NHỮNG NHƯỢC ĐIỂM CỦA MÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_036, best cost 1070.96 + 13493.8 = 14564.7 over 298 frames.
+VIVOSDEV07_036 VÌ ĐÓ MỚI CHÍNH LÀ THỨ BẠN CẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_039, best cost 1716.86 + 17855.7 = 19572.6 over 379 frames.
+VIVOSDEV07_039 GIÓ TRỜI KHÔNG THỂ KHÔNG THÔNG THỔI VÀO KHAI TRUNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_044, best cost 1483.54 + 19287.3 = 20770.8 over 379 frames.
+VIVOSDEV07_044 VỚI CƠ QUAN CHUYÊN MÔN HOẶC VỚI TỔ CHỨC KIỂM TOÁN ĐỘC LẬP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_045, best cost 1421.37 + 15003 = 16424.4 over 326 frames.
+VIVOSDEV07_045 HOẶC CHO VÀO VẠI MUỐI ĐỂ LẦN ĂN DẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_064, best cost 1497.12 + 20798.3 = 22295.4 over 454 frames.
+VIVOSDEV07_064 CỨ CHẬM CÁC ĐẦU NGÓN TAY LẠI MỘT CHỖ MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_066, best cost 1579.97 + 19875.3 = 21455.3 over 417 frames.
+VIVOSDEV07_066 ĐÃ CÓ DỰ ÁN ĐỂ XÂY DỰNG MỘT CÁI CẦU TỪ ĐẤT LIỀN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_067, best cost 1470.84 + 15109.6 = 16580.4 over 336 frames.
+VIVOSDEV07_067 CHẠM VÀO PHẦN THÓP MỀM TRÊN ĐẦU BÉ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_084, best cost 1654.53 + 18856 = 20510.5 over 379 frames.
+VIVOSDEV07_084 THÌ BỖNG NGHE TIẾNG QUÁT QUÁ TƯ VẠT RỪNG PHI LAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_093, best cost 1517.34 + 15891 = 17408.3 over 329 frames.
+VIVOSDEV07_093 PHỤC VỤ CHO MÙA THI ĐẠI HỌC ĐANG ĐẾN SÁT XÁC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_098, best cost 575.199 + 14218 = 14793.2 over 336 frames.
+VIVOSDEV07_098 TRẬN CHIẾN XÍCH BÍCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_107, best cost 1397.29 + 19285.7 = 20683 over 392 frames.
+VIVOSDEV07_107 NGUYÊN THỨ TRƯỞNG BỘ ĐẠI HỌC VÀ GIÁO DỤC CHUYÊN NGHIỆP CŨ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_115, best cost 1997.68 + 18425.2 = 20422.8 over 376 frames.
+VIVOSDEV07_115 VÀO CƠ QUAN LÀ ANH HỌ GIỐNG HỆT NHÂN VỚI MỘT LỖI VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_125, best cost 916.687 + 15170.9 = 16087.6 over 354 frames.
+VIVOSDEV07_125 ÁNG CHỪNG ĐÃ NGOÀI BẢY MƯƠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_127, best cost 764.512 + 10274.1 = 11038.6 over 211 frames.
+VIVOSDEV07_127 CÓ HAI TÁC DỤNG TÍCH CỰC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_134, best cost 1094.13 + 12620.7 = 13714.8 over 282 frames.
+VIVOSDEV07_134 THAM GIA GIẢNG DẠY LÀ LỰC LƯỢNG ĐOÀN VIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_138, best cost 951.473 + 10439.3 = 11390.8 over 236 frames.
+VIVOSDEV07_138 ĐÓ HẮN LÀ MỘT MÓN QUA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_141, best cost 1428.16 + 16846.3 = 18274.5 over 342 frames.
+VIVOSDEV07_141 VÀ KHI THẤY TÔI VẪN KIÊN ĐỊNH TRẢ LỜI TRƯỚC QUỐC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_151, best cost 707.947 + 8955.47 = 9663.42 over 198 frames.
+VIVOSDEV07_151 RÔ BỐT THÔNG MINH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_156, best cost 1263.02 + 13650.2 = 14913.2 over 286 frames.
+VIVOSDEV07_156 ĐẦU TIÊN LÀ BÀ CON MÌNH VẤT VẢ LÀM ĂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_168, best cost 1279.11 + 16237.9 = 17517.1 over 348 frames.
+VIVOSDEV07_168 MÀ CHO ĐẾN LÚC ĐÓ ĐƯỢC XEM LÀ CỦA TƯ NHÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_170, best cost 2170.06 + 19546.1 = 21716.2 over 426 frames.
+VIVOSDEV07_170 NHƯ LẦN NÀY ĐƯỢC ĐEM MÓN GIÒ THỦ HOÀN TOÀN LÀM TỪ TAI HEO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_182, best cost 1924.29 + 19208.3 = 21132.6 over 401 frames.
+VIVOSDEV07_182 NHỮNG NGƯỜI HOÀI NGHI NÓI RẰNG GIỮ ĐƯỢC VỰC TREO LỦNG LẲNG TRÊN NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_185, best cost 1462.13 + 12374.7 = 13836.8 over 254 frames.
+VIVOSDEV07_185 CHIỀU CHIẾC GỢI TÌNH MẸ CON SUM HỌP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_190, best cost 1129.39 + 11795.7 = 12925.1 over 242 frames.
+VIVOSDEV07_190 NƠI CÓ MẤY TÊN TRONG RẤT LÂU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_192, best cost 525.096 + 8074 = 8599.1 over 189 frames.
+VIVOSDEV07_192 NHIỀU NGƯỜI CHO BIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_194, best cost 1748.11 + 14213.9 = 15962 over 292 frames.
+VIVOSDEV07_194 NHIỀU TRỤ ĐÁ DI TÍCH NẰM NGHIÊNG NHÀ VÀ VỠ NÁT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_195, best cost 1690.93 + 18112 = 19803 over 386 frames.
+VIVOSDEV07_195 HỒ CŨNG LUÔN TRÁNH XA NHỮNG TÌNH HUỐNG CÓ THỂ GÂY HẠI CHO HỌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_197, best cost 1603.72 + 19449.7 = 21053.4 over 404 frames.
+VIVOSDEV07_197 TRONG CUỘC SỐNG CỦA TÔI CHÚNG KHÔNG DÙNG ĐỂ KIẾM RA LỢI NHUẬN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_209, best cost 669.988 + 11186.5 = 11856.4 over 245 frames.
+VIVOSDEV07_209 HAI MƯƠI BỐN HAI MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_211, best cost 909.076 + 11473.9 = 12383 over 236 frames.
+VIVOSDEV07_211 HÀNH TÁM HA MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_223, best cost 656.546 + 10960.1 = 11616.7 over 254 frames.
+VIVOSDEV07_223 NĂM MƯƠI HAI NĂM MƯƠI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_231, best cost 777.137 + 12861.5 = 13638.7 over 254 frames.
+VIVOSDEV07_231 SÁU MƯƠI TÁM SO VỚI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_236, best cost 743.76 + 10622.1 = 11365.9 over 226 frames.
+VIVOSDEV07_236 BẢY MƯƠI TÁM BẢY MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_246, best cost 690.305 + 12200.7 = 12891 over 254 frames.
+VIVOSDEV07_246 CHÍN MƯƠI TÁM CHÍN MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_264, best cost 1347.13 + 13583 = 14930.2 over 279 frames.
+VIVOSDEV07_264 BUỔI SÁNG THÀNH PHỐ Ô NHIỄM HƠN BUỔI TRƯA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_266, best cost 867.865 + 10944.4 = 11812.2 over 254 frames.
+VIVOSDEV07_266 NÔNG DÂN TÔI ĐÃ LÀM ANH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV07_295, best cost 1675.77 + 19240.4 = 20916.2 over 373 frames.
+VIVOSDEV07_295 CHỦ TÀU CHO BIẾT SẼ TIẾP TỤC THƯƠNG THUYẾT VỚI SỐ CHI PHÍ NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_002, best cost 848.977 + 10409.4 = 11258.4 over 236 frames.
+VIVOSDEV08_002 ĐỪNG ĐỂ CON SÂU ĂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_005, best cost 1712.38 + 17968.3 = 19680.7 over 339 frames.
+VIVOSDEV08_005 CÂY CỔ THỤ ẤY BẤT CHỢT BỊ BỆNH TẬT QUẬT NGÃ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_014, best cost 1534.48 + 16643.3 = 18177.7 over 361 frames.
+VIVOSDEV08_014 VÀ NẾU BẠN TẬP LÀM LỘN XỘN MÀN HÌNH NỀN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_025, best cost 1558.36 + 15916.7 = 17475.1 over 367 frames.
+VIVOSDEV08_025 ĐẠO DIỄN TRẺ NÀY CÓ NHIỀU ĐIỀU NGẪM NGỢI VỀ NGHỀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_032, best cost 1680.71 + 24063.8 = 25744.5 over 517 frames.
+VIVOSDEV08_032 SẼ KHÔNG KHIẾN BẠN TRÔNG GẦY NHƯ NHỮNG TRANG PHỤC VỤ VÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_053, best cost 1569.43 + 21208.2 = 22777.7 over 414 frames.
+VIVOSDEV08_053 BỞI CƠ QUAN CHUYÊN MÔN HOẶC THUÊ TỔ CHỨC KIỂM TOÁN ĐỘC LẬP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_057, best cost 1853.28 + 19354.8 = 21208.1 over 429 frames.
+VIVOSDEV08_057 NÓ LẬT ĐẬT ĐẠP CHIẾC XE CÀ TÀNG BA NGÀY RA ĐẦU ĐƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_062, best cost 1386.81 + 16663.2 = 18050 over 323 frames.
+VIVOSDEV08_062 HOẶC CHỈ BIỂU HIỆN BẰNG CÁC RỐI LOẠN CO BÓP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_071, best cost 1948.65 + 20913.7 = 22862.4 over 445 frames.
+VIVOSDEV08_071 KHI TÔI LÀ CON BÉ LỚP BỐN THÌ KÊU GỌI LÀ CAO QUA NÓC NHÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_077, best cost 1266.68 + 15439.2 = 16705.8 over 298 frames.
+VIVOSDEV08_077 BUỔI ĐẦU RẤT KHÓ KHĂN THEO ĐUỔI CHƯƠNG TRÌNH HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_085, best cost 1650.95 + 19769.9 = 21420.8 over 414 frames.
+VIVOSDEV08_085 VIỆC ĐƯA TIN THEO TRUYỀN HÌNH TRỰC TIẾP BẰNG HỆ THỐNG CÁC QUAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_090, best cost 740.185 + 11870.2 = 12610.3 over 236 frames.
+VIVOSDEV08_090 VÌ KHÔNG CÓ TIỀN ĐÓNG HỌC PHÍ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_093, best cost 1935.21 + 20196.9 = 22132.1 over 423 frames.
+VIVOSDEV08_093 THẾ LÒNG NGHE MẤY TIẾNG QUẠT MÁT TỪ VẬT RỪNG PHI LAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_100, best cost 1915.7 + 17537.9 = 19453.6 over 373 frames.
+VIVOSDEV08_100 HAI ĐẢM BẢO RẰNG NGÀY NÀO CHÚNG CŨNG ĐƯỢC ĐI NHỮNG ĐÔI TẤT SẠCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_127, best cost 1234.33 + 14477.3 = 15711.7 over 317 frames.
+VIVOSDEV08_127 VỀ VIỆC MANG ĐẾN CHO CÁC EM NIỀM VUI HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_128, best cost 748.694 + 11767.4 = 12516.1 over 261 frames.
+VIVOSDEV08_128 CÓ LẼ PHẢI MẤT NHIỀU THỜI GIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_129, best cost 2050.05 + 19931.4 = 21981.4 over 386 frames.
+VIVOSDEV08_129 NƯỚC GỖ TRÊN CHIẾC ĐỒNG HỒ ĐO BẮC LÊN MÀU VỤ HỖN LOẠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_141, best cost 1995.97 + 23086.2 = 25082.2 over 479 frames.
+VIVOSDEV08_141 KHI SỨC ÉP BIẾN MẮT CHÚNG TRỞ LẠI TÌNH TRẠNG VIÊM DA BÌNH THƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_143, best cost 1329.4 + 13485.1 = 14814.5 over 304 frames.
+VIVOSDEV08_143 THAM GIA SÀN DÀI LÀ LỰC LƯỢNG ĐOÀN VIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_145, best cost 1076.63 + 11135.3 = 12211.9 over 267 frames.
+VIVOSDEV08_145 VÀ VẢI HOẶC CÓ NHIỀU MAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_159, best cost 1371.49 + 12788.7 = 14160.2 over 279 frames.
+VIVOSDEV08_159 VỚI CƠM MẸ Ở XÓM CHÀI LÒNG VIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_163, best cost 1470.67 + 21433.8 = 22904.4 over 457 frames.
+VIVOSDEV08_163 CHƯƠNG TRÌNH ĐÀO TẠO ĐƯỢC HIỆU ỨNG TỐT TỪ PHÍA KHÁN GIẢ NHÍ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_166, best cost 1649.25 + 17725.4 = 19374.7 over 361 frames.
+VIVOSDEV08_166 DỊCH VỤ KIỂM TRA SỨC KHỎE ĐỊNH KỲ LÀ MỘT QUYẾT KIẾN HAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_180, best cost 1245.95 + 13508.2 = 14754.1 over 311 frames.
+VIVOSDEV08_180 CHÍNH SỰ LÊN GIAN Ồ ẠT ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_182, best cost 1431.73 + 16836.4 = 18268.2 over 336 frames.
+VIVOSDEV08_182 KẾT QUẢ CHỈ CÓ VỎN VẸN BA NGƯỜI CÒN BIẾT GIÁC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_193, best cost 779.891 + 9960.34 = 10740.2 over 217 frames.
+VIVOSDEV08_193 LÀ TƯƠNG ĐỐI CÓ HIỆU QUẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_196, best cost 1129.84 + 12777.7 = 13907.6 over 279 frames.
+VIVOSDEV08_196 PHẦN LỚN HỌC SINH GIÁO CÓ NGƯỜI NƯỚC NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_201, best cost 655.015 + 9483.89 = 10138.9 over 223 frames.
+VIVOSDEV08_201 KHÔNG MỘT HAI BA BỐN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_208, best cost 712.392 + 9163.63 = 9876.03 over 223 frames.
+VIVOSDEV08_208 HAI MẸ HAI MƯƠI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_210, best cost 751.331 + 11358.2 = 12109.5 over 236 frames.
+VIVOSDEV08_210 HAI MƯƠI GIÁ HAI MƯƠI BẢY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_214, best cost 766.699 + 11972.8 = 12739.5 over 279 frames.
+VIVOSDEV08_214 BA MƯỜI BỐN BA MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_222, best cost 575.887 + 9615.02 = 10190.9 over 236 frames.
+VIVOSDEV08_222 NĂM MƯƠI NĂM MƯƠI MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_224, best cost 656.837 + 10176.7 = 10833.6 over 236 frames.
+VIVOSDEV08_224 TRĂM MƯỜI BỐN NĂM MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_233, best cost 1128.94 + 12484.2 = 13613.1 over 323 frames.
+VIVOSDEV08_233 BÀI MẸ AI BỞI VÌ BÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_270, best cost 494.219 + 7557.78 = 8052 over 186 frames.
+VIVOSDEV08_270 NÓI THẬT RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_271, best cost 536.184 + 10331.8 = 10868 over 236 frames.
+VIVOSDEV08_271 QUÁ TỐT RỒI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_274, best cost 896.81 + 8259.01 = 9155.82 over 179 frames.
+VIVOSDEV08_274 TÔI CHẾT CÙNG VỚI ANH RẰNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_277, best cost 1022.39 + 10981.2 = 12003.6 over 248 frames.
+VIVOSDEV08_277 ĐÀN ÔNG VÀI THỨ ĐỀU BUỒN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_295, best cost 824.278 + 12359.3 = 13183.6 over 286 frames.
+VIVOSDEV08_295 SAU ĐÓ BẠN SANG ĐỔI VỢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV08_300, best cost 1018.23 + 13704 = 14722.2 over 298 frames.
+VIVOSDEV08_300 ÁN MẠNG TRÊN TOA TÀU TỐC HÀNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_015, best cost 1644.51 + 16931.7 = 18576.2 over 329 frames.
+VIVOSDEV09_015 LÀM RẦM RẬP BỊ MẤY LÂU LẤT PHẤT PHƠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_022, best cost 1270.24 + 11986.5 = 13256.8 over 236 frames.
+VIVOSDEV09_022 TRƯNG MỘT QUYỂN RUỘT THỊT NGƯỜI DÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_029, best cost 1000.24 + 11653.9 = 12654.2 over 229 frames.
+VIVOSDEV09_029 BẠN CÓ THỂ HIỆN CHẤT NGƯỜI LÁI XE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_035, best cost 1378.51 + 15750.8 = 17129.3 over 307 frames.
+VIVOSDEV09_035 RON HOÀN THÀNH TRONG LÒNG HẮN BUỒN VUI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_038, best cost 1569.45 + 18316.9 = 19886.3 over 370 frames.
+VIVOSDEV09_038 PHÒNG PHÒNG TRÀ KHIÊU VŨ THÀNH QUẢ CỦA SUY ĐOÁN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_039, best cost 1686.06 + 15997.1 = 17683.2 over 342 frames.
+VIVOSDEV09_039 THẬT NGỌT LỪ LÂY LAN MAN TRÙNG SÁN DÂY BÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_041, best cost 1329.36 + 16319.6 = 17648.9 over 311 frames.
+VIVOSDEV09_041 HIỆN TRONG NHIỀU LOẠI TỘI CÓ MẶT TRÊN THỊ TRƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_047, best cost 1982.81 + 21092.9 = 23075.7 over 429 frames.
+VIVOSDEV09_047 NGÀY CĂN BẬC HAI CHI DIỄN VÀ CHÍN LẦN TRONG MỘT THẾ KỶ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_055, best cost 1586.99 + 16588.2 = 18175.2 over 342 frames.
+VIVOSDEV09_055 RÕ RÀNG VÀ KHU THEO THÂN HÌNH DỊ DẠNG ĂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_077, best cost 1458.51 + 14937.3 = 16395.8 over 282 frames.
+VIVOSDEV09_077 ĐỂ CÓ THỂ PHÂN THÀNH TRÊN CHÚNG ĐƯỢC HIỆU QUẢ HƠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_081, best cost 984.162 + 11652.5 = 12636.6 over 229 frames.
+VIVOSDEV09_081 ĐƯỢC MIỄN LÀ HOẠCH TUNG RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_083, best cost 1095.1 + 11640.5 = 12735.6 over 242 frames.
+VIVOSDEV09_083 VÌ LƯỢNG CA KHÚC MỚI QUÁ NHIỀU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_091, best cost 632.44 + 9168.36 = 9800.8 over 189 frames.
+VIVOSDEV09_091 NƯỚC CHẢY QUÁ MẠNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_098, best cost 1269.27 + 17144.9 = 18414.1 over 367 frames.
+VIVOSDEV09_098 KHIẾN CẢ HAI PHẢI DÂN THƯỜNG VÔ LÝ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_106, best cost 912.288 + 9486.95 = 10399.2 over 198 frames.
+VIVOSDEV09_106 RỒI CHÌM ĐI MỘT THỜI GIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_110, best cost 1666.05 + 15875.6 = 17541.7 over 361 frames.
+VIVOSDEV09_110 KHI MIỆNG VẪN NHẰM BÙ PHÚ QUỐC QUEO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_134, best cost 1088.18 + 15999.6 = 17087.7 over 317 frames.
+VIVOSDEV09_134 CÂU TRẢ LỜI CỦA ÔNG TA RẤT KHIẾM NHÃ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_139, best cost 1513.91 + 18246.1 = 19760 over 348 frames.
+VIVOSDEV09_139 NẾU CHỦ ĐẦU TƯ KHÔNG TỰ PHÁ DỠ THÌ BỊ CƯỠNG CHẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_142, best cost 1433.94 + 17965.1 = 19399.1 over 386 frames.
+VIVOSDEV09_142 VỀ CHUYỆN ĐANG THEO DÕI BỌN GIÁN ĐIỆP NƯỚC NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_144, best cost 1799 + 20125 = 21924 over 392 frames.
+VIVOSDEV09_144 ĐƯỢC CẮT TỪ MỖI TRẬN ĐẤU ĐỘI CŨ CỦA CÁC ÔNG BỐ RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_158, best cost 1616.96 + 17571.7 = 19188.7 over 354 frames.
+VIVOSDEV09_158 SỢ NHẤT LÀ MÙA MƯA SẤM SÉT ĐÙNG ĐOÀNG TRÊN NÚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_159, best cost 2312.54 + 21116.8 = 23429.3 over 429 frames.
+VIVOSDEV09_159 TỨC LẤY SÚNG LÀM TƯ NÊN KHÔNG PHẢI CHỊU LỰC GHÉP VÀO NƠI HƯ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_163, best cost 1456.75 + 20678.5 = 22135.3 over 429 frames.
+VIVOSDEV09_163 ĐIỀU VÔ CÙNG QUAN TRỌNG TRONG THỜI ĐẠI CÒN NHIỀU BẤT ĐỒNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_166, best cost 1743.11 + 20192.9 = 21936 over 423 frames.
+VIVOSDEV09_166 THÍ SINH TỰ DO CƠ QUAN TÂM ĐẾN ĐÂU VẪN KIẾN THỨC CÁC MÔN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_168, best cost 1103.93 + 19037.8 = 20141.8 over 411 frames.
+VIVOSDEV09_168 MỖI NGƯỜI CHÚNG TA SẼ CÓ NHỮNG THỨ KHÁC NHAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_178, best cost 1095.4 + 14357.2 = 15452.6 over 298 frames.
+VIVOSDEV09_178 VÀ THẬM CHÍ BẠN CŨNG KHÔNG NÊN CỐ GẮNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_194, best cost 1037.68 + 15042.6 = 16080.3 over 326 frames.
+VIVOSDEV09_194 TRÊN BẦU TRỜI ÁNH TRĂNG SÁNG VẰNG VẶC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_198, best cost 1786.2 + 16333.7 = 18119.9 over 345 frames.
+VIVOSDEV09_198 LÀ TỔ TIÊN CỦA ÔNG ĐẶNG LÊN ĐẢM TRÁCH VIỆC DẪN ĐƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_203, best cost 667.247 + 11907.3 = 12574.5 over 273 frames.
+VIVOSDEV09_203 TÁM CHÍN MƯỜI MƯỜI MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_204, best cost 902.401 + 12994 = 13896.4 over 301 frames.
+VIVOSDEV09_204 TRÊN MỘT BỆ HẠ MƯƠI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_222, best cost 783.154 + 13590.4 = 14373.6 over 317 frames.
+VIVOSDEV09_222 NĂM MƯƠI NĂM ĐI MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_246, best cost 632.788 + 10247.4 = 10880.1 over 201 frames.
+VIVOSDEV09_246 CHÍN TÁM CHÍN CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_267, best cost 1296.21 + 14115.3 = 15411.5 over 317 frames.
+VIVOSDEV09_267 CẢ NHÀ ĐANG KIÊN NHẪN Ở CÙNG MÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_268, best cost 951.796 + 16873.5 = 17825.3 over 357 frames.
+VIVOSDEV09_268 THÚ THẬT TÔI CHƯA TỪNG TRẢI DÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_280, best cost 895.051 + 13192 = 14087 over 317 frames.
+VIVOSDEV09_280 SUNG NÀY EM CŨNG VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_286, best cost 623.147 + 7519.5 = 8142.64 over 148 frames.
+VIVOSDEV09_286 CÓ CÒN HƠN KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_288, best cost 1585.21 + 16233.3 = 17818.5 over 311 frames.
+VIVOSDEV09_288 CHẮC SẮP TỚI THU XẾP ĐI DU RẤT HÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_289, best cost 1745.23 + 20456.4 = 22201.6 over 423 frames.
+VIVOSDEV09_289 PHƯƠNG CHÂM SỐNG CỦA TÔI LÀ NGƯỜI KHÔNG VÌ MÌNH TRỜI TRU ĐẤT DIỆT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_293, best cost 946.503 + 11521.4 = 12467.9 over 223 frames.
+VIVOSDEV09_293 NÓI CHUNG MỘT TIẾNG RỒI CÒN ĐÂU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV09_297, best cost 699.102 + 9286.61 = 9985.71 over 217 frames.
+VIVOSDEV09_297 THẾ NÀO LÀ HOÀN HẢO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_010, best cost 1276.08 + 13169.6 = 14445.7 over 279 frames.
+VIVOSDEV10_010 KHI BỊ CÔNG AN HỢP CỔ THẦN TỘC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_014, best cost 884.038 + 14283.2 = 15167.3 over 304 frames.
+VIVOSDEV10_014 SAU KHI ĐỌC NHỮNG THÔNG TIN TRÊN BÁO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_017, best cost 1238.22 + 11469.5 = 12707.7 over 286 frames.
+VIVOSDEV10_017 NGHE THÌ HAY CÀNG NHÌN NÓC NHÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_020, best cost 1398.67 + 16691.2 = 18089.9 over 354 frames.
+VIVOSDEV10_020 VIỆC ÁP DỤNG CÁC BẢN VÁ LỖI VÀ CÔNG CỤ QUẢN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_024, best cost 1563.39 + 12940.1 = 14503.5 over 292 frames.
+VIVOSDEV10_024 NGOÀI TRỜI MƯA TỪ GÁY PHAY CÁC HẠT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_030, best cost 2315.29 + 23357 = 25672.2 over 529 frames.
+VIVOSDEV10_030 NGỒI MÔ HÌNH CHÍNH QUAN RỒI CẬU RA KINH HOÀNG VỀ ĐỦ HÌNH HÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_035, best cost 1125.02 + 11549.5 = 12674.5 over 254 frames.
+VIVOSDEV10_035 CÓ THỂ GIÚP TA QUÊN ĐI NHỮNG NỖI ƯU PHIỀN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_043, best cost 1453.74 + 10403.1 = 11856.9 over 248 frames.
+VIVOSDEV10_043 MAI DUNG GIẢM NHẸ CẦM CÀY ĐẤT TRỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_045, best cost 1328.84 + 19773 = 21101.8 over 426 frames.
+VIVOSDEV10_045 TÔI LỚN LÊN TRONG SỰ GHẺ LẠNH CỦA NGƯỜI MẸ KỂ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_051, best cost 891.386 + 9030.5 = 9921.88 over 189 frames.
+VIVOSDEV10_051 HÙNG ANH HÀM TRÊN THÙNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_067, best cost 1562.96 + 17290.9 = 18853.8 over 386 frames.
+VIVOSDEV10_067 THẾ NHƯNG TÔI KHÔNG ÂN HẬN KHI CHỜ HÀNH VÀ NGỮ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_068, best cost 1729.83 + 21266 = 22995.8 over 429 frames.
+VIVOSDEV10_068 VỚI MỘT TỐC ĐỘ MÀ CHÚNG TA KHÔNG THỂ LÊN TẬN CÙNG CỦA NÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_072, best cost 1683.34 + 19381.5 = 21064.8 over 445 frames.
+VIVOSDEV10_072 TÔI HÀI LÒNG ĐƯỜNG CỦA MÌNH NĂM NĂM RỒI VẪN ĐỨNG NGUYÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_073, best cost 1053.05 + 13071 = 14124 over 292 frames.
+VIVOSDEV10_073 ĐỂ CHẤM DỨT NẠN BẠO HÀNH TRONG GIA ĐÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_076, best cost 1589.14 + 18250.7 = 19839.8 over 373 frames.
+VIVOSDEV10_076 NĂM LƯỢNG XE NGẬP SẬP SÁT QUANH NĂM SUỐT THÁNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_090, best cost 1218.18 + 13133.8 = 14351.9 over 270 frames.
+VIVOSDEV10_090 NGƯỜI Ở CAO CẠNH GIẢI THƯỞNG NHÀ NƯỚC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_117, best cost 527.463 + 6309.55 = 6837.01 over 136 frames.
+VIVOSDEV10_117 TÀI KHÓA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_129, best cost 1711.62 + 22699.9 = 24411.5 over 479 frames.
+VIVOSDEV10_129 ĐIỀU NÀY ĐÚNG VỚI MỌI CẤP ĐỘ VÀ TRONG MỌI LĨNH VỰC CỦA ĐỜI SỐNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_130, best cost 764.411 + 6011.3 = 6775.71 over 136 frames.
+VIVOSDEV10_130 CAO NGÓNG NGÓNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_140, best cost 1880.24 + 28599.3 = 30479.6 over 626 frames.
+VIVOSDEV10_140 CHÀNG TRAI ĐẤT CON BÒ DẬY MẶT MÀY XANH LÉT NHƯ TÀU LÁ CHUỐI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_156, best cost 1918.73 + 26109.2 = 28027.9 over 548 frames.
+VIVOSDEV10_156 CHÍNH PHỦ ĐỒNG THỜI CŨNG GÓP THÊM CỤC XÚC TIẾN TIÊU THỤ DẦU MỎ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_162, best cost 1098.73 + 13438.7 = 14537.4 over 314 frames.
+VIVOSDEV10_162 CŨNG LÀ TIN VUI CHO TẤT CẢ NHỮNG NGÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_172, best cost 1035.65 + 11348.2 = 12383.9 over 251 frames.
+VIVOSDEV10_172 HÙNG ĐÃ CÒN PHẢI NÊU TRÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_176, best cost 1480.76 + 13525 = 15005.7 over 304 frames.
+VIVOSDEV10_176 TRONG TỪNG THẤY AI CHỈ LÀM TRẺ VEN SÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_189, best cost 730.668 + 7558.76 = 8289.43 over 173 frames.
+VIVOSDEV10_189 NẾU Y TẾ NGÀY CÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_194, best cost 1271.44 + 14010.7 = 15282.2 over 336 frames.
+VIVOSDEV10_194 TỨC TRANH CÓ HAI KỶ LỤC BỆNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_196, best cost 1358.59 + 12875.6 = 14234.2 over 286 frames.
+VIVOSDEV10_196 CHỊ MUỐN LÀM MỘT HƠI CHO CẢ CÁI MIỆNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_211, best cost 695.806 + 9953.76 = 10649.6 over 229 frames.
+VIVOSDEV10_211 HAI MƯƠI TÁM HAI MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_212, best cost 713.465 + 8010.22 = 8723.69 over 198 frames.
+VIVOSDEV10_212 BA MƯỜI BA MƯỜI MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_227, best cost 646.918 + 6919.36 = 7566.28 over 157 frames.
+VIVOSDEV10_227 SAO MƯƠI SÁU MƯƠI MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_234, best cost 736.283 + 9204.9 = 9941.19 over 192 frames.
+VIVOSDEV10_234 BẢY MƯƠI BỐN BẢY MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_239, best cost 742.543 + 8233.35 = 8975.89 over 186 frames.
+VIVOSDEV10_239 TÁM MƯƠI BỐN TÁM MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_245, best cost 856.848 + 7607.06 = 8463.91 over 164 frames.
+VIVOSDEV10_245 CHÍNH VÌ SAO CHÍN MƯƠI VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_247, best cost 737.031 + 7671.61 = 8408.64 over 179 frames.
+VIVOSDEV10_247 MỘT TRĂM MỘT HAI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_249, best cost 687.878 + 9614.94 = 10302.8 over 214 frames.
+VIVOSDEV10_249 KHÔNG HAI BỐN SÁU TÁM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_257, best cost 989.001 + 9558.36 = 10547.4 over 217 frames.
+VIVOSDEV10_257 TIỀN NÊN HÀNG NGÀY BẰNG NHIỀU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_262, best cost 1212.41 + 11921 = 13133.5 over 273 frames.
+VIVOSDEV10_262 THU XE TIỆM TẠP HÓA NHÀ CAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_266, best cost 1099.49 + 12900.7 = 14000.2 over 267 frames.
+VIVOSDEV10_266 TỪ TRÊN NÓC NHÀ NHÌN XUỐNG CÓ THỂ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_278, best cost 1201.17 + 11400.6 = 12601.7 over 242 frames.
+VIVOSDEV10_278 CÓ NGHIỆP LƯỢNG NHỎ KHÔNG AI CHĂM SÓC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV10_294, best cost 2561.52 + 26838.8 = 29400.3 over 576 frames.
+VIVOSDEV10_294 EM SỢ CÓ MỘT NGÀY ANH GẶP NGƯỜI CON GÁI KHÁC CÓ PHẦN EM GỌI ANH GỌI EM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_015, best cost 965.856 + 12842.3 = 13808.2 over 267 frames.
+VIVOSDEV11_015 NỮ DIỄN VIÊN XINH ĐẸP PHẠM BĂNG BĂNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_022, best cost 1020.43 + 13290.4 = 14310.8 over 273 frames.
+VIVOSDEV11_022 SẼ LÀM TÌNH TRẠNG BỎ HỌC CỦA TRẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_033, best cost 1759.34 + 14809.1 = 16568.4 over 307 frames.
+VIVOSDEV11_033 MÀ PHẢI CHE CHẠY Ở TẠM BÊN HÔNG NHÀ CHA RUỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_036, best cost 858.54 + 10183.3 = 11041.8 over 223 frames.
+VIVOSDEV11_036 TÔI CÓ THỂ CẢM NHẬN ĐỦ THỨ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_038, best cost 1004.15 + 10482.3 = 11486.5 over 229 frames.
+VIVOSDEV11_038 MÀ PHẢI CHUYỂN QUA HÌNH THỨC GIAO DỊCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_046, best cost 1359.74 + 17067.9 = 18427.6 over 382 frames.
+VIVOSDEV11_046 ĐỪNG BAO GIỜ ĐỂ CHO BẤT KỲ AI NÓI VỚI BẠN RẰNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_048, best cost 1537.26 + 16211.3 = 17748.6 over 332 frames.
+VIVOSDEV11_048 ĐÀN ÔNG ĐỐI LẬP CAO CỔ CỦA NGỰ LÂM QUÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_057, best cost 612.769 + 9464.19 = 10077 over 214 frames.
+VIVOSDEV11_057 NẾU VÌ CHÚNG TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_063, best cost 842.696 + 13026 = 13868.7 over 273 frames.
+VIVOSDEV11_063 NẾU BẠN VẪN CẢM THẤY TỘI LỖI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_075, best cost 1180.92 + 12993.3 = 14174.2 over 304 frames.
+VIVOSDEV11_075 GIẢI GIAO NĂNG SAU TRƯỜNG SƠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_076, best cost 1328.51 + 14397.1 = 15725.6 over 336 frames.
+VIVOSDEV11_076 VỚI TRÊN LÀ NÚI VÀ DƯỚI LÀ XONG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_077, best cost 1299.25 + 17429.4 = 18728.7 over 386 frames.
+VIVOSDEV11_077 VỚI SỰ XUẤT HIỆN CỦA QUÁI THÚ VÀ RỘNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_079, best cost 1467.73 + 17252.3 = 18720 over 354 frames.
+VIVOSDEV11_079 NÉT MẶT HỌ KHÔNG NGỜI LÊN HẠNH PHÚC CỦA NGƯỜI MẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_081, best cost 608.386 + 10256.6 = 10865 over 236 frames.
+VIVOSDEV11_081 MỘT SỐ NGƯỜI CHO RẰNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_083, best cost 1112.21 + 16576.8 = 17689 over 361 frames.
+VIVOSDEV11_083 MỘT SINH VIÊN ĐƯỢC VAY VỐN TÍN DỤNG HỌC TẬP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_095, best cost 979.179 + 14294.4 = 15273.6 over 323 frames.
+VIVOSDEV11_095 MỌI THỨ ĐỀU ĐƯỢC MỔ XẺ LẠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_122, best cost 716.964 + 8745.96 = 9462.92 over 186 frames.
+VIVOSDEV11_122 KHÔNG PHẢI NHẬP KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_123, best cost 936.579 + 13269.9 = 14206.4 over 286 frames.
+VIVOSDEV11_123 CÁC CÔNG TY DU LỊCH PHẢI XÁC ĐỊNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_129, best cost 1066.43 + 12402 = 13468.4 over 286 frames.
+VIVOSDEV11_129 ĐI BỘ LEO NÚI ĐẾN NHỮNG CHÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_131, best cost 1777.32 + 24363.6 = 26141 over 536 frames.
+VIVOSDEV11_131 THÌ CHỦ ĐẦU TƯ PHẢI TỰ PHÁ DỠ PHẦN NỘI DUNG SAI PHÉP ĐO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_136, best cost 1540.74 + 20328.5 = 21869.2 over 467 frames.
+VIVOSDEV11_136 KHI NHÂN VIÊN CỨU HỘ CỐ GẮNG ĐƯA NÓ LÊN SÀ LAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_137, best cost 1189.31 + 15129.8 = 16319.1 over 354 frames.
+VIVOSDEV11_137 NHỮNG NGƯỜI NÀY ĐỀU ĐƯỢC ĐÀO TẠO VỀ HỘI HỌA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_147, best cost 2694.9 + 27001.4 = 29696.3 over 620 frames.
+VIVOSDEV11_147 GẮN LÔNG CHIM HỌC ĐÃ LONG LANH HAY BÈO DÚN TUỔI LÚA ĐẦY CỔ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_160, best cost 762.996 + 10246.7 = 11009.7 over 248 frames.
+VIVOSDEV11_160 NGỤ ẤP HÒN NGANG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_164, best cost 1849.9 + 24574.7 = 26424.6 over 536 frames.
+VIVOSDEV11_164 TUYỆT NHẤT Ở HƠN BA MƯƠI TRƯỜNG THUỘC CÁC ĐỊA PHƯƠNG NÓI TRÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_182, best cost 1020.12 + 12958.3 = 13978.4 over 273 frames.
+VIVOSDEV11_182 ĐẶC ĐIỂM CỦA PHẢI TRÙM CẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_193, best cost 981.923 + 11220.9 = 12202.8 over 267 frames.
+VIVOSDEV11_193 VÌ BAN ĐÊM CHỈ NGỦ KHÔNG NGON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_198, best cost 1682.89 + 21937.2 = 23620.1 over 479 frames.
+VIVOSDEV11_198 LƠ LỬNG TRÊN ĐẦU LÀ NHỮNG CHIẾC BẪY RA HÀNG TRĂM KHỐI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_200, best cost 488.755 + 9464.23 = 9952.99 over 220 frames.
+VIVOSDEV11_200 NĂM ĐẦU TIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_234, best cost 756.024 + 12657.3 = 13413.3 over 304 frames.
+VIVOSDEV11_234 BẢY MƯƠI BỐN BẢY MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_242, best cost 719.657 + 12100.9 = 12820.6 over 286 frames.
+VIVOSDEV11_242 CHUYỆN MƯỜI CHÍN MƯƠI MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_246, best cost 720.994 + 11951.7 = 12672.7 over 267 frames.
+VIVOSDEV11_246 CHÍN MƯƠI TÁM CHÍN MƯƠI CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_252, best cost 1672.51 + 19407.9 = 21080.4 over 432 frames.
+VIVOSDEV11_252 BÂY GIỜ CƯỚP NHIỀU QUÁ ĐI ĐƯỜNG CŨNG THẤY SỢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_262, best cost 1618.88 + 17007.8 = 18626.6 over 379 frames.
+VIVOSDEV11_262 TÌM HUNG THỦ HIẾP DÂM BẰNG NƯỚC BỌT NẠN NHÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_269, best cost 1701.97 + 20780.1 = 22482.1 over 464 frames.
+VIVOSDEV11_269 CHÚNG TÔI YÊU NHAU ĐƯỢC HAI NĂM THÌ GIA ĐÌNH TÔI XẢY RA CHUYỆN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_273, best cost 556.986 + 11454.2 = 12011.2 over 267 frames.
+VIVOSDEV11_273 TRỌNG TÀI PHẠT THẺ ĐỎ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_274, best cost 1086.94 + 13924.7 = 15011.6 over 301 frames.
+VIVOSDEV11_274 KIỂU NÀY CHẮC PHẢI CẮT GIẢM BIÊN CHẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_282, best cost 977.308 + 13681.5 = 14658.8 over 304 frames.
+VIVOSDEV11_282 THÔI THÌ CỨ SẮP XẾP NHƯ VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_289, best cost 1198.25 + 22619.2 = 23817.4 over 482 frames.
+VIVOSDEV11_289 THEO PHÓ CHỦ TỊCH ỦY BAN AN TOÀN GIAO THÔNG QUỐC GIA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV11_298, best cost 1133.19 + 16412.7 = 17545.9 over 389 frames.
+VIVOSDEV11_298 CHUẨN BỊ CHO NGÀY KHAI TRƯƠNG CỬA HÀNG ĐẦU TIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_006, best cost 1471.15 + 18036.1 = 19507.3 over 411 frames.
+VIVOSDEV12_006 TỪ SỰ YÊU THƯƠNG QUÁ MỨC CỦA LUỒNG TUYẾN NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_011, best cost 1085.45 + 14740.2 = 15825.6 over 326 frames.
+VIVOSDEV12_011 ĐÓ CHỨNG TỎ RẰNG CHÚNG TA ĐÃ DA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_015, best cost 933.01 + 10562.1 = 11495.1 over 254 frames.
+VIVOSDEV12_015 TRAO LẠI ĐẤT CHO RỪNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_032, best cost 1711.76 + 20156 = 21867.8 over 426 frames.
+VIVOSDEV12_032 CÁC LOẠI CÂY TRỒNG Ở RỪNG NÀY CÒN CÂY KEM GIÁ TRỊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_054, best cost 1302.78 + 23868.1 = 25170.9 over 486 frames.
+VIVOSDEV12_054 THIẾU SỰ QUAN TÂM ĐÚNG MỨC TỪ CÁC CƠ QUAN CHỨC NĂNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_056, best cost 688.093 + 12060.3 = 12748.4 over 295 frames.
+VIVOSDEV12_056 TAY CHỞ CẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_057, best cost 1068.04 + 20396.8 = 21464.8 over 429 frames.
+VIVOSDEV12_057 KHÔNG PHẢI VÌ TÔI KHÔNG COI TRỌNG CHẤT LƯỢNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_065, best cost 2017.07 + 22588.4 = 24605.5 over 448 frames.
+VIVOSDEV12_065 THÌ ĐỌC ĐƯỢC HỘI TUY KHÔNG THỜI TRỤC LỘ TRÊN BÁO TUỔI TRẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_066, best cost 793.919 + 15838.5 = 16632.4 over 336 frames.
+VIVOSDEV12_066 THIẾU TƯỚNG PHẠM QUÝ NGỌ CHO BIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_068, best cost 1328.86 + 14512 = 15840.8 over 311 frames.
+VIVOSDEV12_068 KHÔNG MỘT CHÚT TRẦY TRỤA MÀ ĐẾN CÁI GÌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_071, best cost 1791.42 + 19232.5 = 21023.9 over 392 frames.
+VIVOSDEV12_071 NÓ ĐƯỢC ĐẶT TRONG MỘT HỘP ĐỰNG TRANG SỨC BỌC DA ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_075, best cost 1938.83 + 22319 = 24257.9 over 489 frames.
+VIVOSDEV12_075 NHÓM THANH LONG TRẺ DIỄN TIỂU PHẨM HÀI HẠT BẮP TRÊN THÙNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_076, best cost 1164.77 + 15817.5 = 16982.2 over 354 frames.
+VIVOSDEV12_076 TÔI ĐI TÌM NHÀ TRỌ RỒI NHƯNG KHÓ QUÁ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_079, best cost 964.668 + 14166.5 = 15131.1 over 329 frames.
+VIVOSDEV12_079 SÂN CỎ MƯỢT MÀ VEN ĐƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_080, best cost 1136.19 + 14734.7 = 15870.9 over 351 frames.
+VIVOSDEV12_080 CHÍNH THỨC ĐÃ LÂY LAN RA BÊN NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_100, best cost 1788.41 + 22673.7 = 24462.1 over 479 frames.
+VIVOSDEV12_100 PHỤ HUYNH VÀ HỌC SINH ĐANG PHẢI È CỔ VÌ SỢ XÁC CAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_101, best cost 1917.46 + 23423.2 = 25340.7 over 486 frames.
+VIVOSDEV12_101 KHI CHÍNH PHỦ LÚC ĐẦU ĐỜI LÝ TƯỞNG XA CHO NHỮNG NGƯỜI NỔI DẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_116, best cost 798.04 + 12934 = 13732 over 282 frames.
+VIVOSDEV12_116 DƯỚI ÁNH ĐÈN MỜ MỜ ẢO ẢO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_128, best cost 1455.8 + 18703.5 = 20159.3 over 395 frames.
+VIVOSDEV12_128 TRONG CUỘC BỎ PHIẾU TẠI HỘI ĐỒNG BẢO AN HAI NGÀY TRƯỚC ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_132, best cost 1097.69 + 16024.6 = 17122.3 over 329 frames.
+VIVOSDEV12_132 HẦU HẾT NHỮNG VẤN ĐỀ XẢY RA TRÊN THẾ GIỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_135, best cost 797.53 + 11756.9 = 12554.4 over 248 frames.
+VIVOSDEV12_135 ÔNG ĐƯỢC NHIỀU NGƯỜI BIẾT ĐẾN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_144, best cost 595.285 + 8841.85 = 9437.14 over 204 frames.
+VIVOSDEV12_144 TRẢ LỜI TÔI BIẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_166, best cost 1066.08 + 12603.3 = 13669.4 over 267 frames.
+VIVOSDEV12_166 THẬT RA TO BÉO CÚT BẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_169, best cost 856.605 + 10252.2 = 11108.8 over 229 frames.
+VIVOSDEV12_169 TẠO RẤT LUNG BUNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_173, best cost 970.07 + 14121.3 = 15091.3 over 276 frames.
+VIVOSDEV12_173 ĐỐI VỚI NHỮNG PHẢN ỨNG KHÁC BIỆT ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_182, best cost 965.552 + 11247.7 = 12213.2 over 254 frames.
+VIVOSDEV12_182 VÀ ĐÃ HIẾN MÁU BA LẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_186, best cost 1365.24 + 15449.3 = 16814.6 over 329 frames.
+VIVOSDEV12_186 TIẾNG THÉT ĐÔNG THÀNH CỦA MẤY CHỤC CON NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_192, best cost 907.635 + 12441.8 = 13349.4 over 273 frames.
+VIVOSDEV12_192 TRANG THỨ HAI CỦA TỜ BÁO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_197, best cost 1969.94 + 23012.2 = 24982.1 over 467 frames.
+VIVOSDEV12_197 SAU ĐÓ BÀ HÀNG XÓM TÍNH TÌNH SÔI NỔI TRẢI QUA CÁI VỚI TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_213, best cost 701.606 + 11672.7 = 12374.3 over 282 frames.
+VIVOSDEV12_213 BA MƯƠI HAI BA MƯƠI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_223, best cost 692.265 + 11721.7 = 12414 over 279 frames.
+VIVOSDEV12_223 NĂM MƯƠI HAI NĂM MƯƠI BA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_224, best cost 730.126 + 12644.7 = 13374.8 over 279 frames.
+VIVOSDEV12_224 VÒNG MƯỜI BỐN NĂM MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_227, best cost 912.855 + 11101.6 = 12014.5 over 251 frames.
+VIVOSDEV12_227 SAO MÙI SAU MƯỜI MỘT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_232, best cost 585.473 + 10760 = 11345.5 over 242 frames.
+VIVOSDEV12_232 BẢY MƯƠI BẢY MƯƠI MỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_244, best cost 755.762 + 11549.9 = 12305.7 over 267 frames.
+VIVOSDEV12_244 CHÍN MƯƠI BỐN CHÍN MƯƠI LĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_248, best cost 935.824 + 19713.3 = 20649.1 over 461 frames.
+VIVOSDEV12_248 MỘT BA NĂM BẢY CHÍN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_271, best cost 1385.32 + 18676.6 = 20061.9 over 395 frames.
+VIVOSDEV12_271 BÀ CON TRAI THÌ CẦN ĐÂU ĐỂ CHUẨN BỊ ĐÓN TẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_275, best cost 1841.05 + 21673.7 = 23514.8 over 457 frames.
+VIVOSDEV12_275 TÔI KHÔNG THẤY GÌ LÀ ĐÚNG KHI TĂNG GIÁ XE VÀO CÁC DỊP TẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_280, best cost 1099.2 + 15610.1 = 16709.3 over 311 frames.
+VIVOSDEV12_280 DU LỊCH SẼ TRỞ THÀNH NGÀNH KINH TẾ MŨI NHỌN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV12_290, best cost 1075.48 + 18118.3 = 19193.8 over 373 frames.
+VIVOSDEV12_290 TỪ KHI CHỒNG QUA ĐỜI VÌ BỆNH TẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_019, best cost 1525.93 + 18302.8 = 19828.7 over 410 frames.
+VIVOSDEV13_019 ĐƠN VỊ MÌNH KHÔNG NGHE AI NÓI GÌ CHƯA HẲN ĐÃ TỐT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_026, best cost 1620.62 + 19989.6 = 21610.2 over 417 frames.
+VIVOSDEV13_026 KHÔNG AI ĐƯỢC NGƯỢC ĐÃI CÁC EM VỀ CÁC EM HỌC GIẢM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_054, best cost 1808.92 + 25320 = 27128.9 over 560 frames.
+VIVOSDEV13_054 GIA LAI NGUYỄN MẠNH TƯỜNG TRẢ LỜI PHỎNG VẤN BÁO GIỚI ẢNH TRUNG DÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_058, best cost 1850.68 + 19065.2 = 20915.9 over 432 frames.
+VIVOSDEV13_058 ĐÓ LÀ GIAI ĐOẠN THỜI TIẾT CÁC BIẾN ĐỘNG VÀ NHIỆT ĐỘ KHÔNG QUÁ KHÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_061, best cost 1729.61 + 17057.4 = 18787 over 410 frames.
+VIVOSDEV13_061 NHƯNG SAU NGHE CON NÓI RA NÓI VÀO LẠI ÁC CẢM VỚI EM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_069, best cost 2308.2 + 23597.6 = 25905.8 over 498 frames.
+VIVOSDEV13_069 NHỮNG ĐIẾU THUỐC VỪA Ý ĐỐT CHÁY VÀ CHỞ TRÊN CHIẾC SÔ PHA LÓC LẠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_075, best cost 1751.88 + 19643.5 = 21395.4 over 435 frames.
+VIVOSDEV13_075 BẠN CÓ THỂ CÁC CHƯƠNG TRÌNH ĐÓ ĐI VÀO THỰC HIỆN THAO TÁC CUỐI CÙNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_078, best cost 1858.41 + 21949.6 = 23808 over 454 frames.
+VIVOSDEV13_078 CÁCH NÀY QUANH CHÚNG TÔI VƯƠNG VÃI SÁNG CHẾ CỦA NGƯỜI DÂN VÔ TỘI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_088, best cost 2195.45 + 21968.9 = 24164.3 over 501 frames.
+VIVOSDEV13_088 NHỮNG CHIẾC LỒNG ĐÈN ĐỒ CHƠI VÌ VẪN LẶNG LẼ MANG HỒN VÌ XUỐNG PHỐ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_089, best cost 2484.52 + 28880.9 = 31365.4 over 642 frames.
+VIVOSDEV13_089 NHÀ VĂN NGUYÊN NGỌC SINH NHÀ VĂN MỸ HỌC SINH VIÊN CÓ QUYỀN HOÀI NGHI VÀ TRANH CÃI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_097, best cost 1807.17 + 33015.6 = 34822.8 over 735 frames.
+VIVOSDEV13_097 CUỘC THI CÒN CÓ HAI GIẢI NHÌ BA GIẢI BA VÀ BỐN GIẢI KHUYẾN KHÍCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_098, best cost 1678.9 + 18977.6 = 20656.5 over 423 frames.
+VIVOSDEV13_098 HẦU NHƯ CÁC PHẢN ỨNG PHỤ NẶNG NỀ LÀ RẤT HIẾM GẶP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_104, best cost 1912.6 + 19252.4 = 21165 over 435 frames.
+VIVOSDEV13_104 SỐ TIỀN QUÁ LỚN KHIẾN GIA ĐÌNH HƯƠNG PHẠM VÀ LÊ CHÁN NGÁN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_105, best cost 2573.68 + 33659.1 = 36232.8 over 782 frames.
+VIVOSDEV13_105 NHÓC ĐỎ MẶT TÍA TAI MẮT ĐỎ MẶT TÍA TAI NHẤT TÔI CHỈ MỘT TUỔI THÔI ĐÂY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_106, best cost 1656.83 + 19868.4 = 21525.3 over 454 frames.
+VIVOSDEV13_106 CẢM GIÁC ĐỂ CHIA SẺ VỚI BẠN ĐỜI CÙNG SỞ THÍCH THÚ VỊ LẮM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_136, best cost 1866.21 + 19046.5 = 20912.7 over 423 frames.
+VIVOSDEV13_136 TÔI VÀO QUẦY GIẢI KHÁT ĐẦU TIÊN VÀ GỌI MỘT CỐC NƯỚC KÉM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_137, best cost 1554.57 + 14297.5 = 15852 over 323 frames.
+VIVOSDEV13_137 MẸ LẦN TAY CHÂN LÝ VÀ LẤY RA CHIẾC PHONG BÌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_139, best cost 2043.09 + 19821.4 = 21864.5 over 410 frames.
+VIVOSDEV13_139 TIỀN DỰ PHÒNG CHẠY TRỐN KHỎI KINH THÀNH ĐỂ TÌM HUNG THỦ THỰC SỰ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_146, best cost 1966.3 + 22139.9 = 24106.2 over 510 frames.
+VIVOSDEV13_146 CÓ NGÀY CÁC BÁC SĨ ĐIỀU DƯỠNG MỔ MẮT CHO HÀNG TRĂM NGƯỜI MÙ NGHÈO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_147, best cost 1972.63 + 19734.6 = 21707.3 over 457 frames.
+VIVOSDEV13_147 KHÔNG AI MUỐN CÓ TIÊU CỰC CẢ VÀ CŨNG ĐỪNG TUYỆT ĐỐI HÓA VẤN ĐỀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_150, best cost 1891.82 + 17382.9 = 19274.7 over 410 frames.
+VIVOSDEV13_150 VÀ HẮN THÌ NHẬN MANG LÊN NAM VANG ĐỂ CHỊU THẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_164, best cost 1096.04 + 16245.9 = 17342 over 364 frames.
+VIVOSDEV13_164 HIỆN CƠ QUAN CHỨC NĂNG ĐANG TIẾP TỤC ĐIỀU TRA VỤ VIỆC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_167, best cost 1182.57 + 16619.6 = 17802.1 over 382 frames.
+VIVOSDEV13_167 KHI BỊ PHÁT HIỆN HỌ ĐÃ TRẢ LỜI NHƯ THẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_210, best cost 1204.1 + 15776.8 = 16980.9 over 329 frames.
+VIVOSDEV13_210 RÀ SOÁT CHẤT LƯỢNG CÔNG TRÌNH XÂY DỰNG TRÊN CẢ NƯỚC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_211, best cost 1548.95 + 16817.6 = 18366.6 over 367 frames.
+VIVOSDEV13_211 KHÔNG NẢN NGHĨA TIN RẰNG SẼ CÓ MỘT GIẢI PHÁP NÀO ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_222, best cost 1671.26 + 16897.6 = 18568.9 over 370 frames.
+VIVOSDEV13_222 MẸ CŨNG ĐÃ TỪNG THỐNG KHỔ TUYỆT VỌNG VÀ CÔ ĐƠN NHƯ VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_225, best cost 1784.4 + 16408.2 = 18192.6 over 367 frames.
+VIVOSDEV13_225 HAI LOẠI VĂN NÀY NÊN ĐƯỢC COI TRỌNG NHƯ NHAU TRONG CÁC KỲ THI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_226, best cost 1686.88 + 16712.6 = 18399.5 over 357 frames.
+VIVOSDEV13_226 VẬY MÀ CÓ MỤC TIÊU ĐỂ MÀ PHẤN ĐẤU ĐẾN NGƯỜI CÓ Ý THỨC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_227, best cost 1282.26 + 15330.8 = 16613 over 323 frames.
+VIVOSDEV13_227 TẠI ĐÂY CÓ MỘT ÔNG TRƯỞNG PHÒNG NHÂN SỰ CÔNG TY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_230, best cost 1660.45 + 18683.5 = 20343.9 over 417 frames.
+VIVOSDEV13_230 CHỈ MỘT ĐIỀU ĐƠN GIẢN VẬY MÀ ANH ẤY KHÔNG BAO GIỜ THỰC HIỆN ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_239, best cost 1578.74 + 13602.3 = 15181 over 310 frames.
+VIVOSDEV13_239 CHẲNG CẦN NHÌN VỀ PHƯƠNG TÂY QUÊ HƯƠNG CỦA HÀNG HIỆU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_241, best cost 1391.47 + 12032.2 = 13423.6 over 260 frames.
+VIVOSDEV13_241 ĐỒNG CẢ CÁNH ĐỒNG CHUYỂN SANG MỘT MÀU VÀNG RỰC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_252, best cost 1729.47 + 17573 = 19302.4 over 392 frames.
+VIVOSDEV13_252 TÔI HỌC CÙNG VỚI CÁC ANH CHỊ LÀM VIỆC CHUYÊN VỀ SẢN XUẤT PHẦN MỀM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_255, best cost 1869.95 + 17876.3 = 19746.2 over 410 frames.
+VIVOSDEV13_255 CÓ LẼ ĐÂY LÀ LỜI QUẢNG CÁO KHÔNG CÔNG HAY NHẤT CHO DU LỊCH LÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_257, best cost 1543.05 + 15627.4 = 17170.4 over 354 frames.
+VIVOSDEV13_257 TỪ ĐÓ ĐẾN NAY GIA ĐÌNH CHỊ VẪN SỐNG TRONG CĂN NHÀ LỊCH SỬ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_258, best cost 1496.2 + 14895.1 = 16391.3 over 317 frames.
+VIVOSDEV13_258 BẠN CẦN TRUNG THỰC VỚI NHÂN VIÊN CỦA MÌNH CHO MỖI HÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_263, best cost 1834.55 + 14069.9 = 15904.4 over 317 frames.
+VIVOSDEV13_263 MỘT SỐ ĐIỂM NẾU PHÙNG ĐẾN ĐÂU BAY HƠI HẾT TINH TẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_267, best cost 1924 + 17719.2 = 19643.2 over 392 frames.
+VIVOSDEV13_267 DO VẬY VẤN ĐỀ CỦA CHÚ KHÔNG CHÊ BỆNH TẢ HIỆN NAY RẤT KHÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_276, best cost 1449.8 + 13624.4 = 15074.2 over 310 frames.
+VIVOSDEV13_276 ĐÓ LÀ CÂU HỎI MÀ ĐẾN NAY VẪN CHƯA CÓ CÂU TRẢ LÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV13_277, best cost 1874.24 + 18718.7 = 20592.9 over 395 frames.
+VIVOSDEV13_277 HÀ NỘI MỞ RỘNG KHU VỰC HỒ TÂY SÔNG HỒNG LÊN LÀ KHU VỰC TỈNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_018, best cost 1722.05 + 14534.3 = 16256.4 over 310 frames.
+VIVOSDEV14_018 BIÊN CHẾ NÀY NHÀ THANH TRA LẠI NAM QUỐC NHẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_022, best cost 1497.15 + 14230.3 = 15727.4 over 298 frames.
+VIVOSDEV14_022 HƠN LÀ DẪN DẮT CÁC EM THEO CHỦ Ý CỦA GIÁO VIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_027, best cost 2109.63 + 22944.1 = 25053.7 over 504 frames.
+VIVOSDEV14_027 BẠN CÓ THỂ THAM KHẢO MỘT SỐ SƠ Ý KHI LỊCH ĐIỆN TỬ SAU ĐÂY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_035, best cost 1424.32 + 15556.4 = 16980.7 over 329 frames.
+VIVOSDEV14_035 NHẠC SĨ LA HỐI VỚI CA KHÚC XUÂN VÀ TUỔI TRẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_079, best cost 1157.26 + 14834.1 = 15991.4 over 335 frames.
+VIVOSDEV14_079 VẬY AI SẼ CHỊU TRÁCH NHIỆM VỀ NHỮNG TRƯỜNG HỢP NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_080, best cost 1393.1 + 18176.5 = 19569.6 over 410 frames.
+VIVOSDEV14_080 KHI PHÍA TRƯỚC CÒN VÔ VÀN KHÓ KHĂN ĐỐI VỚI CON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_085, best cost 2204.51 + 21391.2 = 23595.7 over 479 frames.
+VIVOSDEV14_085 BỐN NĂM TRỜI BỊ CẤM MỘT MÌNH VỚI CÔNG MÀ NHIỀU PHIÊN BẢN HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_086, best cost 1488.69 + 15255 = 16743.7 over 317 frames.
+VIVOSDEV14_086 EM SỢ MẤT ANH ẤY NHƯNG LẠI CẢM THẤY MÌNH BỊ XÚC PHẠM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_093, best cost 2073.24 + 19420.2 = 21493.4 over 435 frames.
+VIVOSDEV14_093 TRÒ ĐÙA ĐỐI VỚI THẦY NHƯNG LẠI LÀ CHÂN THẬT CHÂN THẬT VỚI MỘT NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_104, best cost 1579.24 + 19618.3 = 21197.5 over 432 frames.
+VIVOSDEV14_104 ĐÓ LÀ NHẬN XÉT CHUNG CỦA NHIỀU TỔNG GIÁM ĐỐC ĐIỀU HÀNH NGHỀ NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_108, best cost 1378.8 + 14374.8 = 15753.6 over 289 frames.
+VIVOSDEV14_108 NGƯỜI PHÁP ĐÃ ĐỒNG Ý VỚI CÁCH QUẢN LÝ LĨNH VỰC CHÍNH TRỊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_113, best cost 1814.94 + 15161.6 = 16976.5 over 332 frames.
+VIVOSDEV14_113 HÀNG THAY ĐỔI LẦM LÌ SAU KHI THÌ ĐỊNH ĐẾN XỨ NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_114, best cost 1389.43 + 16083.5 = 17472.9 over 342 frames.
+VIVOSDEV14_114 YẾU TỐ HẤP DẪN MỚI THU HÚT ĐẦU TƯ NƯỚC NGOÀI VỀ VIỆT NAM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_115, best cost 1818.86 + 17251.7 = 19070.5 over 410 frames.
+VIVOSDEV14_115 BỆNH NÀY GIỜ ĐÂY NÓ KHÔNG ĐỢI ĐƯỢC ĐẾN LÚC VÌ VỀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_116, best cost 1419.7 + 14126 = 15545.7 over 285 frames.
+VIVOSDEV14_116 MỘT GÓC CÂU CÁ TRÊN CẦU SÀI GÒN ẢNH MAI VINH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_123, best cost 1391.57 + 14168 = 15559.5 over 310 frames.
+VIVOSDEV14_123 MỘT VÀI NGƯỜI TRONG BỌN HỌ ĐƯA MẮT NHÌN MẢNH GIẤY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_134, best cost 1729 + 18077.1 = 19806.1 over 385 frames.
+VIVOSDEV14_134 TRƯỚC ĐÂY NHÌN TỪ BÊN NGOÀI NÀY KHÔNG KHÁC GÌ MỘT CĂN NHÀ HOANG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_140, best cost 1797.63 + 17209.6 = 19007.2 over 348 frames.
+VIVOSDEV14_140 CÓ NHƯNG PHẢI LÀ THUỐC ĐẶC TRỊ CỦA PHÁT HIỆN VẬT THÌ ĐÁP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_145, best cost 1474.05 + 12722.1 = 14196.1 over 267 frames.
+VIVOSDEV14_145 MỘT SỐ BẠN CHỊ CŨNG CÓ Ý NGHĨ NHƯ CAO CƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_151, best cost 1412.67 + 15275.4 = 16688.1 over 307 frames.
+VIVOSDEV14_151 TÔI ĐÃ CÓ THỜI GIAN TUYỆT VỜI KHI CHƠI CHO ĐỘI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_156, best cost 1587.91 + 14681.1 = 16269 over 307 frames.
+VIVOSDEV14_156 THỈNH THOẢNG CON ĐI QUA DỪNG LẠI DỪNG XE NGƯỜI HÚT THUỐC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_163, best cost 1125.26 + 16032.4 = 17157.7 over 310 frames.
+VIVOSDEV14_163 CHƯA MỞ ĐẦU VỚI NHỮNG CÂU CHUYỆN CỦA ÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_180, best cost 1606.95 + 13201.3 = 14808.3 over 285 frames.
+VIVOSDEV14_180 ĂN CÁ NGỪ CÁ THU VÀ CẢ MỌI VỚI RAU TRỘN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_186, best cost 1080.6 + 13571.9 = 14652.5 over 279 frames.
+VIVOSDEV14_186 CÓ BẰNG THẠC SĨ NGÀNH TRÊN LÀ MỘT LỢI THẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_191, best cost 2104.84 + 19893.4 = 21998.2 over 448 frames.
+VIVOSDEV14_191 MINH QUÂN HỒNG QUÂN VŨ CÔNG THÀNH SƯU TẬP TỪ BÁO NƯỚC NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_194, best cost 1656.79 + 13478.3 = 15135.1 over 273 frames.
+VIVOSDEV14_194 MUỐN CÓ BẰNG LÁI PHẢI QUA MỘT ĐƯỢC THÌ RẤT KHẮT KHE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_195, best cost 1723.64 + 23636.2 = 25359.9 over 542 frames.
+VIVOSDEV14_195 YÊU NHAU KHOẢNG VÀI THÁNG THÌ CHÚNG TÔI ĐÃ CÓ QUAN HỆ PHỨC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_199, best cost 1648.29 + 15545.8 = 17194.1 over 304 frames.
+VIVOSDEV14_199 KHÓ SAO DUYÊN DÁNG TRÁNH UỐNG RƯỢU TRONG ĐÁM CƯỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_225, best cost 1711.71 + 18672.3 = 20384 over 423 frames.
+VIVOSDEV14_225 ÔNG DƯƠNG ĐỨC LÂN PHÓ TỔNG CỤC TRƯỞNG TỘC CŨNG CHẠY NHẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_227, best cost 1556.35 + 14102.9 = 15659.2 over 317 frames.
+VIVOSDEV14_227 TỚI SỰ VỀ ĐỂ NHIỀU NGƯỜI YÊU CỦA BẠN ĐÃ TỪNG LÀM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_235, best cost 1583.51 + 16136.8 = 17720.3 over 335 frames.
+VIVOSDEV14_235 THAM GIA THIẾT KẾ LĂNG CHỦ TỊCH HỒ CHÍ MINH THÌ CÓ NHIỀU NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_236, best cost 1284.14 + 14115.7 = 15399.9 over 304 frames.
+VIVOSDEV14_236 VÌ VẬY CÔNG TY TẾ PHẢI CÓ TRÁCH NHIỆM BỒI THƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_256, best cost 1994.59 + 18034.1 = 20028.7 over 385 frames.
+VIVOSDEV14_256 NÔNG DÂN TRỒNG MÍA THÁNG CỨ MỘT PHỤ NỮ LẠI ĐƯỢC BA VỤ THẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_280, best cost 1458.44 + 14541.4 = 15999.9 over 298 frames.
+VIVOSDEV14_280 THÌ NGƯỜI XEM CŨNG ĐƯỢC NÂNG CAO KIẾN THỨC VỀ ĐỊA LÝ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_283, best cost 1894.33 + 17899.9 = 19794.2 over 389 frames.
+VIVOSDEV14_283 NGÀY XƯA CÁC CỤ LÀM ĐÈN SÁCH LÀ MINH HỌA CHO CUỐN SÁCH ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_285, best cost 1682.19 + 15865.1 = 17547.3 over 335 frames.
+VIVOSDEV14_285 TÔI ĐÃ NHIỀU LẦN PHẢN ĐỐI QUYẾT LIỆT VIỆC NƯỚC THẢI TUỒN RA NGOÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_286, best cost 1393.28 + 13484.3 = 14877.6 over 289 frames.
+VIVOSDEV14_286 NHIỀU GIA ĐÌNH HIỆN NAY THÍCH TỰ GIỚI THIỆU CHƯƠNG TRÌNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_289, best cost 1640.55 + 16097.8 = 17738.3 over 367 frames.
+VIVOSDEV14_289 TÔI LÀ MỘT NGƯỜI MIỀN TÂY ĐÂY LÀ NGHIÊN CỨU SINH NÀO VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_291, best cost 1571.44 + 16404.5 = 17976 over 354 frames.
+VIVOSDEV14_291 CÀNG ĐI SÂU VÀO BÊN TRONG CẢNH TRÍ THIÊN NHIÊN CÀNG VÙNG VẪY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV14_294, best cost 1576.29 + 16176.2 = 17752.5 over 329 frames.
+VIVOSDEV14_294 MONG BẠN BÌNH TÂM SUY NGHĨ VÀ CHỌN ĐƯỢC CÁCH GIẢI QUYẾT TỐT NHẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_003, best cost 1589.69 + 18770.9 = 20360.6 over 360 frames.
+VIVOSDEV15_003 ĐIỀU NÀY KHÓ HƠN KHI BÃO VÀO BÁN KẾT Ở NƠI XA LẠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_013, best cost 1903.62 + 19044.7 = 20948.3 over 367 frames.
+VIVOSDEV15_013 CŨNG ĐỀU TRONG TƯ THẾ MÀ ÔNG KHU PHỐ NHỎ VỢ TÔI Ở ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_014, best cost 1752.3 + 20542.6 = 22294.9 over 385 frames.
+VIVOSDEV15_014 KHI MUA CHIẾC LỒNG ĐÈN KHỔNG LỒ TẠI CÔNG VIÊN Ở THỦ ĐÔ BẮC KINH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_020, best cost 1830.81 + 14724.5 = 16555.3 over 282 frames.
+VIVOSDEV15_020 CỨ TRÊN CỤC QUÁ KHỨ ÔNG KẸ KHÔNG BIẾT BAO NHƯNG LÀM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_021, best cost 1559.06 + 17483.5 = 19042.6 over 342 frames.
+VIVOSDEV15_021 MỘT SỐ TRONG THỜI TIẾT TRÊN BẤT KỲ MÀU SÁNG NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_026, best cost 1658.2 + 17233.8 = 18892 over 342 frames.
+VIVOSDEV15_026 ÔNG ANH TRAI MÀ NGHĨ MẠNH THÌ ANH CHÀNG LÀM CHI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_037, best cost 1423.29 + 18714.7 = 20138 over 364 frames.
+VIVOSDEV15_037 TRÊN CƠ SỞ ĐÓ NHỮNG HÀNH VI VI PHẠM SẼ ĐƯỢC XỬ LÝ NGHIÊM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_038, best cost 1959.58 + 22529.9 = 24489.5 over 429 frames.
+VIVOSDEV15_038 MỘT CƠ QUAN CHÍNH THỨC ĐỂ KHÁCH HÀNG KHIẾU NẠI THAM KHẢO VÀ TIỀN THƯỞNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_047, best cost 2289.94 + 26200.9 = 28490.8 over 535 frames.
+VIVOSDEV15_047 MỌI TÌNH HUỐNG ỨNG XỬ SƯ PHẠM TÔI LÀM BỘ TIỀN RỦI ĐƯỢC CỦA TRẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_050, best cost 2047.09 + 21642.1 = 23689.2 over 429 frames.
+VIVOSDEV15_050 CHẲNG LẼ ANH CƠM NHÀ NGƯỜI MÀ LẠI KHÔNG CHĂM CHÚ LẮNG NGHE NGƯỜI NỘI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_062, best cost 1752.64 + 20453.8 = 22206.5 over 401 frames.
+VIVOSDEV15_062 NGHĨA LÀ NẾU BẠN ĐANG LÀM VIỆC SĨ CƯỠI NGỰA XEM XÉT TIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_066, best cost 1870.07 + 22295.4 = 24165.5 over 435 frames.
+VIVOSDEV15_066 CẢM VỚI NHAU TRONG CAM XÔI THỊT ĐỎ CÁ ÔNG TRÙM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_092, best cost 1948.75 + 23015.1 = 24963.9 over 435 frames.
+VIVOSDEV15_092 CŨNG TƯƠNG TỰ MỘT CƠ QUAN KHÁC KHI CẦN VÀ HỆ THỐNG HẠCH BẠCH HUYẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_109, best cost 1447.61 + 15015.7 = 16463.3 over 301 frames.
+VIVOSDEV15_109 CUỘC THI TỰ HÀO SỬ VIỆT ĐÃ HAY SAI ĐÃ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_111, best cost 1578.26 + 18015.8 = 19594.1 over 339 frames.
+VIVOSDEV15_111 CŨNG ĐƯỢC TIỀN CỦA ÁO ĐỎ CÓ THỂ SẼ BIẾN THÀNH BẠO LỰC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_117, best cost 1328.83 + 18627.7 = 19956.5 over 367 frames.
+VIVOSDEV15_117 TRÊN THỰC TẾ MỘT CUỘC ĐIỀU TRA ĐÃ ĐƯỢC KIỂM HÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_121, best cost 1767.11 + 20568.6 = 22335.7 over 398 frames.
+VIVOSDEV15_121 CHẠY XA HÀNG CHỤC CÂY SỐ ĐỀU THUA VÀO TẦM MẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_137, best cost 1652.48 + 19985.2 = 21637.6 over 398 frames.
+VIVOSDEV15_137 THANH GIANG XÃ ĐÓI THÌ CHỈ CÓ THỂ LÀM VẬY THÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_147, best cost 2231.45 + 23742.4 = 25973.8 over 423 frames.
+VIVOSDEV15_147 BAN ĐẦU CỦA CÁC ĐỐM QUỐC KIÊN GIANG CÁC SỞ BAN NỘI VÀ BÀI NGOẠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_154, best cost 1870.23 + 19193.8 = 21064 over 373 frames.
+VIVOSDEV15_154 CÁI NHÀ HÁT BỊ ĐẬP TAN CÀNG ÔNG ẤY LÀM ĂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_168, best cost 2433.52 + 28364.6 = 30798.1 over 554 frames.
+VIVOSDEV15_168 MÂM CƠM VẪN THAN ĐÁ CỦA ÁO CỦA VỢ CŨNG CHỈ VÀI CUỘC ĐỜI SƠ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_173, best cost 1872.56 + 22986.3 = 24858.9 over 473 frames.
+VIVOSDEV15_173 HIỆN TRƯỚC KIA LÚC NÀO CŨNG CHỈ CÓ TIỀN ĐIỆN HƯƠNG RĂN ĐE 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_180, best cost 1612.79 + 20709.1 = 22321.9 over 407 frames.
+VIVOSDEV15_180 HIỆN NAY BÀ ĐANG BỊ NHƯ VẬY VÀ XUỐNG DƯỚI MỨC NGHÈO KHỔ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_194, best cost 1938.64 + 22668.1 = 24606.7 over 435 frames.
+VIVOSDEV15_194 TẤM TRẢI GIƯỜNG GẦN CẢ THÁNG BA CHO TÔI CẢM THẤY MIẾNG THỊT CÔ ĐỘC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_198, best cost 2133.08 + 24598.1 = 26731.2 over 485 frames.
+VIVOSDEV15_198 NGÀNH GÌ KHI GIỜ HỌC TOÁN THEO BUỒN NGỦ QUÁ HỢP BUỒN NGỦ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_200, best cost 2220.8 + 25356.1 = 27576.9 over 485 frames.
+VIVOSDEV15_200 NÓI CHUYỆN MỘT HỒI ÔNG LÀ BỐ ĐỂ TAY LÊN TAY ANH CHÉN CƠM XUỐNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_203, best cost 1783.93 + 21814.9 = 23598.8 over 417 frames.
+VIVOSDEV15_203 CÒN ANH TRAI TÔI TRONG NHẬT KÝ CỦA MÌNH CŨNG LINH CẢM ĐIỀU ĐÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_204, best cost 2208.47 + 22167 = 24375.5 over 432 frames.
+VIVOSDEV15_204 XANH CHÚNG TÔI TẠM BIỆT HÔM NAY VÀ NHỮNG CHỦ NHÂN VIÊN KHÁC TỤC MÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_208, best cost 1898.03 + 21369.7 = 23267.8 over 417 frames.
+VIVOSDEV15_208 CÁC BẠN NGHE ĐÂU THÌ HỌ PHẢI NHỜ KIÊN SINH ĐI THI THEO CHƯƠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_209, best cost 1213.32 + 15796.6 = 17009.9 over 317 frames.
+VIVOSDEV15_209 CÓ KINH NGHIỆM VỚI VĂN HÓA CÔNG TY NHƯ THẾ NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_213, best cost 1864.67 + 23059.9 = 24924.6 over 454 frames.
+VIVOSDEV15_213 MÔ HÌNH CẤU TRÚC CHỨC NĂNG VÀ KHOA HỌC XÃ HỘI MANG TIẾNG XẤU SỐ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_216, best cost 1505.68 + 16861.3 = 18367 over 323 frames.
+VIVOSDEV15_216 CÁC BẠN TÌNH CÓ VIỆC LÀM CỦA ĐIỆN VỚI THU NHẬP CAO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_220, best cost 1758.98 + 18828.3 = 20587.2 over 373 frames.
+VIVOSDEV15_220 CÂY LÀ THẰNG CON SỐ ĐÁNG KIẾP THẤP NHẤT TỪ ĐẦU NĂM ĐẾN NAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_239, best cost 1693.46 + 21560.1 = 23253.5 over 435 frames.
+VIVOSDEV15_239 THẬT RA THÌ CŨNG KHÔNG THỂ LÀM CẦU KỲ NHƯNG Ở NHÀ ĐƯA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_253, best cost 1746.18 + 18368.4 = 20114.6 over 354 frames.
+VIVOSDEV15_253 VẢ LẠI TRƯỚC KHI CHẾT ĐI LẠI THẾ DẪN CỦA BỘ CHỈ XEM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_255, best cost 1760.99 + 23511.8 = 25272.8 over 454 frames.
+VIVOSDEV15_255 CÔNG NHÂN ĐANG THI CÔNG HAI NHÁNH CẦU RẠCH CHIẾC ẢNH THUẬN THẮNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_265, best cost 2033.77 + 21908.3 = 23942 over 435 frames.
+VIVOSDEV15_265 HỌ KHÔNG BIẾT CHƠI PHÒNG NGỰ LÀ THỊ TRƯỜNG KHI BỊ ĐỐI THỦ VỚI ÉP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_267, best cost 1720.11 + 17209.7 = 18929.8 over 348 frames.
+VIVOSDEV15_267 CUỐI CÙNG HỌ GIÀNH NHAU VỀ NHÀ VỚI THÙNG LÀM THÔN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_271, best cost 1924.07 + 23887.4 = 25811.5 over 457 frames.
+VIVOSDEV15_271 KHI MƯỜI CỦA TRƯƠNG NGHỆ MƯU SỰ TRỞ LẠI XONG PHIM NGHỆ THUẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV15_299, best cost 1795.03 + 19572.6 = 21367.6 over 385 frames.
+VIVOSDEV15_299 CÓ NAM CHÂM CHÍCH THÁC ĐÁ BANH THÌ ÔNG KHÔNG NHƯ THẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_026, best cost 2316.95 + 29600.2 = 31917.2 over 635 frames.
+VIVOSDEV16_026 CÙNG VỢ ĂN VỘI CHÉN CƠM THÀNH LẠI LỚP ÔN BÀI LÀM BÀI TẬP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_033, best cost 1679.53 + 16835 = 18514.5 over 354 frames.
+VIVOSDEV16_033 ĐỘI NÀO THÀNH TÍCH CÀNG CAO THÌ QUẢN LÝ CÀNG KHÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_048, best cost 1278.59 + 19172.5 = 20451 over 395 frames.
+VIVOSDEV16_048 PHẢI CHĂNG XÂY DỰNG NIỀM TIN VÀO TÌNH YÊU KHÓ THẾ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_049, best cost 2043.43 + 28880.3 = 30923.7 over 604 frames.
+VIVOSDEV16_049 CON BẠC CẦU THỦ VĂN TRƯƠNG BẬT HIẾU VÀ HẢI LÂM THÌ SAO THƯA ÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_050, best cost 1866.94 + 18334.1 = 20201.1 over 373 frames.
+VIVOSDEV16_050 THÁNG BẢY NHIỀU NGƯỜI CON KHÓC NÊN TRỜI BUỒN VÀ KHÓC THEO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_051, best cost 1544.32 + 20493.3 = 22037.6 over 417 frames.
+VIVOSDEV16_051 CA KHÚC ĐƯỢC KHÁN GIẢ YÊU THÍCH NHẤT VÀ TÔI NGUYỄN VĨNH TIẾN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_058, best cost 1373.88 + 15192.3 = 16566.2 over 329 frames.
+VIVOSDEV16_058 ĐẦU TƯ TIÊU DÙNG VÀ XUẤT KHẨU ĐỀU SẼ TĂNG MẠNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_059, best cost 1826.94 + 19051.3 = 20878.3 over 407 frames.
+VIVOSDEV16_059 ĐỒ CỔ KHÔNG CÔNG KHAI NGUỒN GỐC PHẢI BỊ COI LÀ HÀNG GIẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_064, best cost 1804.14 + 16671.4 = 18475.6 over 360 frames.
+VIVOSDEV16_064 TỪNG LÀ CHỦ TẾ HÀNG TRĂM LỄ TANG CÁN BỘ GIÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_067, best cost 1397.78 + 16906.2 = 18303.9 over 354 frames.
+VIVOSDEV16_067 HÌNH NHƯ KHÔNG CÓ CẢ MỘT TRONG HAI TÀI VÀ ĐỨC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_068, best cost 1565.31 + 20178.3 = 21743.6 over 423 frames.
+VIVOSDEV16_068 BÊN CẠNH ĐÓ CHÚNG TÔI CÒN LÀM HÀNG LOẠT VIỆC KHÁC NHƯ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_074, best cost 1711.02 + 19304.3 = 21015.3 over 398 frames.
+VIVOSDEV16_074 CHÚNG ĐANG YÊU NHAU RẤT TỰ NHIÊN KHÁC NHAU CŨNG RẤT TỰ NHIÊN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_079, best cost 1840.64 + 23144.2 = 24984.8 over 498 frames.
+VIVOSDEV16_079 TẤT CẢ ĐỂ CHO NGƯỜI BỆNH VÀ THÂN NHÂN HÀI LÒNG KHI ĐẾN BỆNH VIỆN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_101, best cost 1632.26 + 18679.7 = 20312 over 392 frames.
+VIVOSDEV16_101 TÔI KHẼ CHỚP MẮT VÀ THẦM CẦU NGUYỆN XIN CHÚA GIÚP CON 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_112, best cost 1814.85 + 18577.2 = 20392.1 over 379 frames.
+VIVOSDEV16_112 LÚC HƯNG PHẤN NÓI CHUYỆN PHÒNG LÀ CHẲNG CÓ CHUYỆN PHỨC TẠP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_120, best cost 1527.01 + 18232.3 = 19759.3 over 376 frames.
+VIVOSDEV16_120 SẼ LÀM CHÚNG TA NGỦ KHÔNG ĐỦ KHÔNG ĐÚNG QUY LUẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_149, best cost 1747.58 + 21161.6 = 22909.2 over 435 frames.
+VIVOSDEV16_149 CÓ BAO GIỜ ÔNG GẶP TÌNH HUỐNG KHÔNG TRẢ LỜI ĐƯỢC CÂU HỎI CỦA DÂN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_153, best cost 1391.62 + 18234.5 = 19626.1 over 373 frames.
+VIVOSDEV16_153 CẢ ĐỜI CHƯA BAO GIỜ TÔI CÓ CẢM GIÁC SUNG SƯỚNG NHƯ VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_154, best cost 1531.24 + 18951.2 = 20482.4 over 395 frames.
+VIVOSDEV16_154 TIẾT CÓ CƠ HỘI SỐNG SÓT CHO CÁC HÀNH KHÁCH TRÊN MÁY BAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_161, best cost 1575.53 + 22621.2 = 24196.7 over 464 frames.
+VIVOSDEV16_161 TRUNG QUỐC ĐƯA RA HÌNH PHẠT CỤ THỂ ĐỐI VỚI TỘI THAM NHŨNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_168, best cost 1943.98 + 19776.8 = 21720.8 over 404 frames.
+VIVOSDEV16_168 HAI CHÁU NGẠC NHIÊN ĐÓN KHÁCH LẠ SUNG SƯỚNG CUNG CẤP MỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_173, best cost 1768.82 + 20541.3 = 22310.1 over 435 frames.
+VIVOSDEV16_173 NHƯNG CÔ QUYẾT CHỨNG MINH NGƯỜI MÙ KHÔNG PHẢI VÔ DỤNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_175, best cost 1744.65 + 17156.2 = 18900.9 over 379 frames.
+VIVOSDEV16_175 HỌ ĐÃ TRAO NHAU LỜI HẸN ƯỚC NÊN DUYÊN CHỒNG VÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_177, best cost 2214.31 + 24628.3 = 26842.6 over 523 frames.
+VIVOSDEV16_177 NẾU THỈNH THOẢNG CÓ VÀI NGÀY NGHỈ NGƯỜI THỤY ĐIỂN THƯỜNG RA ĐẢO CHƠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_182, best cost 2110.13 + 24126.8 = 26236.9 over 489 frames.
+VIVOSDEV16_182 TIÊU NGƯỜI CÔ LẬP MÌNH CÓ THỂ GẶP PHẢI CHỨNG TRẦM CẢM HOẶC LO LẮNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_193, best cost 1724.73 + 20628 = 22352.7 over 432 frames.
+VIVOSDEV16_193 THỰC TẾ VAI TRÒ CỦA BẠN VÀ NGƯỜI PHỎNG VẤN TÔI CHIA NHAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_196, best cost 1560.05 + 19322.3 = 20882.4 over 410 frames.
+VIVOSDEV16_196 SỰ GIÚP ĐỠ CỦA BÀ LÀ VÔ CÙNG QUÝ BÁU CHO CHÚNG TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_197, best cost 1970.16 + 20909.4 = 22879.6 over 454 frames.
+VIVOSDEV16_197 NHÀ TRƯỜNG ĐỘT NGỘT HỦY ĐỀ TÀI KHIẾN TÔI MẤT PHƯƠNG HƯỚNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_198, best cost 1635.33 + 23400.2 = 25035.5 over 517 frames.
+VIVOSDEV16_198 CÁC PHẬT TỬ HƯỞNG ỨNG LỜI KÊU GỌI CỦA THẦY NHƯ THẾ NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_203, best cost 1255.19 + 17099.7 = 18354.9 over 382 frames.
+VIVOSDEV16_203 TẠI NHỮNG ĐỐI TƯỢNG NÀY SẼ ĐƯỢC GIẢI QUYẾT NHƯ THẾ NÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_228, best cost 1831.22 + 21761.7 = 23592.9 over 479 frames.
+VIVOSDEV16_228 XEN KẼ GIỮA NHỮNG MÀN BIỂU DIỄN LÀ NHỮNG PHÚT VUI CHƠI TẬP THỂ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_233, best cost 2094.01 + 26493.7 = 28587.7 over 542 frames.
+VIVOSDEV16_233 SÁNG RA THẤY DÂN TÌNH XUNG QUANH CON CÁI CHẾT KHÔNG LƯU ĐÃ CHẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_239, best cost 1557.17 + 18927.2 = 20484.4 over 423 frames.
+VIVOSDEV16_239 VÀ MỘT ĐIỀU SÂU XA LÀ MÌNH ĐÃ THỰC SỰ YÊU BẠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_247, best cost 1873.59 + 23980.9 = 25854.5 over 517 frames.
+VIVOSDEV16_247 NHIỀU HƠN MƯỜI CHO BẠN BÈ ĐẾN CHUYỆN NẶNG TRĨU TRÊN VAI MẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_266, best cost 2317.53 + 24152.2 = 26469.7 over 504 frames.
+VIVOSDEV16_266 KHI DƯỚI VÀ XUNG QUANH KỂ LÀ NƯỚC BẨN LÊNH LÁNG CHẢY QUA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_267, best cost 2087.44 + 25429.1 = 27516.6 over 498 frames.
+VIVOSDEV16_267 TÔI ĐỨNG TRƯỚC HAI LỐI RẼ VÀ TÔI CHỌN CON ĐƯỜNG NGƯỜI ĐI HƠN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_273, best cost 1764.71 + 21286.7 = 23051.4 over 445 frames.
+VIVOSDEV16_273 CHÚNG TÔI ĐÃ ĐIỀU TRA Ở NHỮNG TRƯỜNG HỢP CÓ NGHI VẤN GIAN DỐI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_279, best cost 1605.01 + 19787.3 = 21392.3 over 417 frames.
+VIVOSDEV16_279 TAY CHỪNG NÀO MÀ TÔI XIN LỖI NHÂN DÂN TỘC CUỐI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_298, best cost 2160.86 + 24606 = 26766.8 over 523 frames.
+VIVOSDEV16_298 HÔM NÀO TAN CA SONG HÀNH ĐƯỢC GIAO NHIỆM VỤ ĐI CHỢ CHO BUỔI TỐI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV16_299, best cost 2023.69 + 19803.3 = 21827 over 442 frames.
+VIVOSDEV16_299 VÀO ĐƯỢC NHÀ ANH ĐẤY XỬ CỬA ĐI NGUY HIỂM ĐẤY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_011, best cost 1622.64 + 19823.2 = 21445.9 over 404 frames.
+VIVOSDEV17_011 RỒI MẶC DÙ BIẾT LÀ NGỚ NGẨN TÔI CỨ NÓI RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_024, best cost 2164.81 + 28595.1 = 30759.9 over 570 frames.
+VIVOSDEV17_024 RIÊNG ÔNG NGUYỄN VĂN BA BỊ GỖ ĐÈ DẬP SỌ NÃO CHẾT NGAY TẠI CHỖ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_032, best cost 1497.56 + 21288.4 = 22786 over 432 frames.
+VIVOSDEV17_032 MỌI NGƯỜI NỌ MỘT NỤ CƯỜI VỚI NHỮNG Ý NGHĨ KHÁC NHAU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_043, best cost 1429.18 + 18260 = 19689.2 over 360 frames.
+VIVOSDEV17_043 DO VẬY SẼ ẢNH HƯỞNG TỚI VIỆC THU SÓNG VÔ TUYẾN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_048, best cost 1404.19 + 18837.8 = 20242 over 373 frames.
+VIVOSDEV17_048 PHIM CHIẾU NGUYÊN BẢN TIẾNG PHÁP CỦA PHỤ ĐỀ TIẾNG VIỆT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_060, best cost 1819.1 + 17357.7 = 19176.8 over 345 frames.
+VIVOSDEV17_060 BỖNG MỘT XANH LÀ VÙNG CẰM BẮT HỌ CÓ THỂ ĐI QUA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_062, best cost 1746.47 + 18794.6 = 20541.1 over 357 frames.
+VIVOSDEV17_062 SAU MỘT NGÀY LAO ĐỘNG TĂNG MỖI BẠN CŨ TIỀN CHO ÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_070, best cost 1919.47 + 21279.8 = 23199.2 over 401 frames.
+VIVOSDEV17_070 HÀ CŨNG CHẲNG NHỚ MÌNH CÓ NÓI HAY KHÔNG ĐỂ TRẢ LẠI ÔNG ẤY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_071, best cost 1406.19 + 18301.2 = 19707.4 over 370 frames.
+VIVOSDEV17_071 BẢN THÂN TÔI CŨNG THAM GIA MỘT VAI RẤT NHỎ NỮA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_077, best cost 2031.27 + 20937.5 = 22968.8 over 423 frames.
+VIVOSDEV17_077 HÔM SAU MỞ MÁY THẤY CÁI CHUYỆN ĐÃ TỰ HÀNH TRÌNH RỒI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_090, best cost 1480.35 + 17687.8 = 19168.2 over 351 frames.
+VIVOSDEV17_090 BÂY GIỜ THÌ ĐÁNG ĐƯỢC KHEN LÀ THÔNG MINH CHỨ HẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_099, best cost 2023.13 + 22196.5 = 24219.6 over 457 frames.
+VIVOSDEV17_099 CHỊ TÌM NHÀ CHO EM KHỎI CHẢO NGAY CỔNG TRƯỜNG CHỈ HỌC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_100, best cost 1693.33 + 19081 = 20774.3 over 395 frames.
+VIVOSDEV17_100 ĐẾN ĐÀ LẠT BẠN PHẢI CHUẨN BỊ ĐÔI CHÂN ĐỂ ĐI BỘ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_107, best cost 1874.8 + 24751.4 = 26626.2 over 489 frames.
+VIVOSDEV17_107 HỌ ĐƯỢC BỌN ĐẦU NẬU NHỮNG CÂY TRỒNG THÊM VỚI GIÁ RẺ MẠT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_109, best cost 1737.89 + 20723.4 = 22461.3 over 379 frames.
+VIVOSDEV17_109 MỘT VÀ SANG TRỌNG ĐẾN GẶP BÁC SĨ TRẺ KHÁM BỆNH BÁC SĨ HỎI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_114, best cost 1500.3 + 18020.3 = 19520.6 over 335 frames.
+VIVOSDEV17_114 NHÂN LỰC NGÀNH THIẾT KẾ ĐỒ ĐẮT GIÁ VÀ KHAN HIẾM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_120, best cost 1404.32 + 19524.2 = 20928.5 over 376 frames.
+VIVOSDEV17_120 SAU ĐÓ BẢN THÂN HỌC SINH PHẢI LÀM ĐƠN XIN HỌC BỔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_133, best cost 1455.65 + 18172.1 = 19627.8 over 360 frames.
+VIVOSDEV17_133 CHỈ CÓ THỰC PHẨM MỚI GIÚP BẠN LÀM ĐƯỢC VIỆC NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_147, best cost 1544.49 + 18612.3 = 20156.8 over 367 frames.
+VIVOSDEV17_147 VỚI CÁC DÁT MÀU CÀ PHÊ SỮA KHÔNG CẦN ĐIỀU TRỊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_169, best cost 2179.08 + 23141.8 = 25320.9 over 485 frames.
+VIVOSDEV17_169 HỌ BẢO TÔI GIỐNG NHƯ NGƯỜI HẸN THÌ TÔI LẠI THẤY HỌ DÒNG NGƯỜI VIỆT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_170, best cost 1829.39 + 19712.5 = 21541.8 over 382 frames.
+VIVOSDEV17_170 BA ĐỘI TUYỂN PHÁP ĐANG LÀ ĐỘI CHIẾM ƯU THẾ HƠN SO VỚI THỊ SĨ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_173, best cost 1503.92 + 17284.4 = 18788.4 over 323 frames.
+VIVOSDEV17_173 TRÌNH ĐỘ CHUYÊN MÔN CỦA CÔ KHIẾN CÔ QUA THU TỪ CÁC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_181, best cost 1272.49 + 18688.6 = 19961.1 over 385 frames.
+VIVOSDEV17_181 NHỮNG CÂU HỎI TRÊN SẼ GIÚP BẠN LÀM ĐƯỢC ĐIỀU NÀY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_189, best cost 1820 + 25285.9 = 27105.9 over 498 frames.
+VIVOSDEV17_189 VẪN CÒN NHƯNG BẠN KHÔNG DÁM CHẮC HỌ CÓ HẠNH PHÚC HAY KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_192, best cost 1427.93 + 20113.2 = 21541.1 over 404 frames.
+VIVOSDEV17_192 ĐÓ CŨNG LÀ SỰ TIẾP XÚC GẦN GŨI NHẤT CỦA BỌN EM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_204, best cost 1799.97 + 24150.4 = 25950.4 over 460 frames.
+VIVOSDEV17_204 EM HÃY TỈNH TÁO MÀ TÌM NHỮNG ĐỊNH HƯỚNG TỐT HƠN CHO TƯƠNG LAI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_208, best cost 1980.32 + 24754.6 = 26734.9 over 510 frames.
+VIVOSDEV17_208 NHƯNG CHẲNG CÓ ĐIỂM SẢN XUẤT NÀO DÙNG BẠT PHỦ CHE CHẮN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_212, best cost 1778.11 + 23201.5 = 24979.6 over 467 frames.
+VIVOSDEV17_212 CÓ MẤY NGƯỜI ĐÚNG PHẢI NÓ CHIẾC LÁ CHUỐI XUỐNG ĐƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_213, best cost 1474.35 + 20393.8 = 21868.1 over 401 frames.
+VIVOSDEV17_213 CÀNG ĐI THUYỀN ĐẾN MỘT KHU LÀNG DÂN TỘC THIỂU SỐ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_217, best cost 1626.34 + 28938.5 = 30564.9 over 592 frames.
+VIVOSDEV17_217 CÁI HỢP ĐỒNG THẾ CHẤP NÀY CŨNG KHÔNG CÓ GIÁ TRỊ PHÁP LÝ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_239, best cost 1948.39 + 24189.5 = 26137.9 over 517 frames.
+VIVOSDEV17_239 BA TÔI HÃNH DIỆN NÓI CHUYỆN VỚI SỐ HỌC SINH CÙNG LÊN XE ĐÒ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_241, best cost 1485.65 + 18567.5 = 20053.2 over 389 frames.
+VIVOSDEV17_241 MỘT ANH TRAI TUẤN ĐANG NGỒI TÙ VÌ TỘI GIẾT NGƯỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_245, best cost 2374.66 + 25530.7 = 27905.4 over 529 frames.
+VIVOSDEV17_245 ĐƯỢC BAY TRÊN NHỮNG BÉ THỞ BÊN CẠNH NHỮNG BÓ SEN HAY KHÔNG PHÚT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_254, best cost 1572.52 + 23810.2 = 25382.8 over 479 frames.
+VIVOSDEV17_254 CÁC BƯỚC SAU ĐÂY SẼ GIÚP BẠN TÌM RA ỨNG CỬ VIÊN THÍCH HỢP 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_268, best cost 1718.59 + 20554.8 = 22273.4 over 407 frames.
+VIVOSDEV17_268 VÌ CHÚNG CÓ THỂ LÀM RĂNG CỦA BẠN DỄ BỊ Ô VÀNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_271, best cost 1766.32 + 27045.4 = 28811.8 over 545 frames.
+VIVOSDEV17_271 GIẢI NHẤT HUY CHƯƠNG VÀNG THUỘC VỀ NHÀ NHIẾP ẢNH CỦA CỘNG HÒA SÉC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_285, best cost 1670.67 + 20505.7 = 22176.4 over 423 frames.
+VIVOSDEV17_285 ĐỂ XIN THỊ THỰC CÔNG TÁC VỀ CƠ BẢN BẠN PHẢI CÓ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_288, best cost 2344.93 + 25565.1 = 27910 over 526 frames.
+VIVOSDEV17_288 TÔI NẮM BÀN TAY XƯƠNG BA TÔI TỪNG THƯƠNG TÔI ĐAU XÓT CẦM GIỮ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_297, best cost 1819.79 + 21294.7 = 23114.5 over 429 frames.
+VIVOSDEV17_297 TRONG DÒNG THÁC NGƯỜI CHỈ NHÌN ĐƯỢC MẶT KÍNH VÀ KHẨU TRANG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV17_299, best cost 1410.67 + 18978.3 = 20388.9 over 360 frames.
+VIVOSDEV17_299 KHAI MẠC TRIỂN LÃM QUY MÔ LỚN VỚI TRANH SƠN MÀI VIỆT NAM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_006, best cost 1401.82 + 17647.6 = 19049.4 over 323 frames.
+VIVOSDEV18_006 KHÔNG NÊN CHỈ DỰA VÀO BÀI VIẾT CỦA NHỮNG TRẺ EM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_012, best cost 1517.69 + 14091.6 = 15609.3 over 257 frames.
+VIVOSDEV18_012 VÀ GIÁO DỤC CON NGƯỜI TRỞ THÀNH VIỆC CHUYỂN CHỊ NHƯ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_017, best cost 1421.93 + 15508.2 = 16930.1 over 279 frames.
+VIVOSDEV18_017 NHÌN HỢP ĐỒNG NÀY CHỈ CÓ GIÁ TRỊ TRONG NHỮNG NGÀY BÌNH THƯỜNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_021, best cost 1295.27 + 13205.7 = 14501 over 254 frames.
+VIVOSDEV18_021 VINH VẺ ĐẸP RA Ở ĐÂY LÀ LÀM THẾ NÀO ĐỂ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_051, best cost 1404.24 + 15536 = 16940.3 over 285 frames.
+VIVOSDEV18_051 NHƯNG NHIỀU DU KHÁCH CẢM THẤY THẤT VỌNG KHI LÊN ĐẾN NƠI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_056, best cost 1471.27 + 16444.6 = 17915.8 over 298 frames.
+VIVOSDEV18_056 CHE MẶT AI CŨNG CÓ CÁNH TAY KHẨU TRANG CHE MIỆNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_060, best cost 1403.37 + 12181.5 = 13584.9 over 232 frames.
+VIVOSDEV18_060 CẢ NGÀY VIỄN CẢNH NGHĨ NHIỀU VỀ CÔNG VIỆC GIẢNG DẠY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_064, best cost 1697.52 + 15720 = 17417.6 over 289 frames.
+VIVOSDEV18_064 TẤT NHIÊN HÓA ĐƠN TIỀN NƯỚC CŨNG KÈM THEO LUÔN KHOẢN TIỀN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_065, best cost 782.785 + 12987.5 = 13770.2 over 232 frames.
+VIVOSDEV18_065 BẠN ĐỌC CÓ THẬT NHIỀU THỜI GIAN THƯ GIÃN THOẢI MÁI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_082, best cost 1400.7 + 14088.5 = 15489.2 over 260 frames.
+VIVOSDEV18_082 THẰNG CHA MÀY ĐEN VÀ SÁCH KHÔNG LẪN VÀO ĐÂU ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_102, best cost 1475.27 + 15228.8 = 16704.1 over 276 frames.
+VIVOSDEV18_102 MÂY TRỜI KHÔNG NẮNG GIÓ LẠNH NGHIÊN CỨU VĂN DU KHÁCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_114, best cost 1572.61 + 17413.8 = 18986.4 over 301 frames.
+VIVOSDEV18_114 ĐƯỢC HÁT CUỐI CÙNG VIỆC Y LÀ MỘT NỖ LỰC RẤT LỚN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_118, best cost 1835.79 + 18473.9 = 20309.7 over 360 frames.
+VIVOSDEV18_118 NGƯỜI ĂN XIN THƯA BA NGÀY THƯỜNG THÌ BÀ CHO GÌ CŨNG ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_120, best cost 1321.18 + 13285.1 = 14606.2 over 242 frames.
+VIVOSDEV18_120 BẠN KHÔNG BAO GIỜ RA NGOÀI MÀ KHÔNG DÙNG KEM LÓT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_126, best cost 2289.51 + 23466.2 = 25755.7 over 442 frames.
+VIVOSDEV18_126 CÁI LÊN TRIỂN LÃM TRANH TƯỢNG KHÔNG LỜI NHƯ KÉT HẠNH SẼ NHẬN RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_155, best cost 1743.59 + 21728.2 = 23471.8 over 392 frames.
+VIVOSDEV18_155 NGƯỜI ĐÀN ÔNG TRÊN TRƯỜNG KỶ NIỆM VỀ LÊN MỘT TIẾNG RỒI MỞ MẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_171, best cost 1629.01 + 18378.3 = 20007.3 over 348 frames.
+VIVOSDEV18_171 TỪ CON NGƯỜI TA ĐI BẮT TÔI GIỮA ĐÊM HÔM KHUYA KHOẮT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_183, best cost 1829.27 + 16521.9 = 18351.1 over 292 frames.
+VIVOSDEV18_183 HỌ THẲNG THẮN QUYẾT NÓ BẮT CON GÀ SỐNG ĐÂU MÀ KIỆT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_191, best cost 1947.2 + 21904 = 23851.2 over 398 frames.
+VIVOSDEV18_191 CHỊ BÁC SĨ LÀM THẦY CÓ NHỮNG VIỆC KHÁC TRỒNG CÂY THÍCH THÚ VỊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_192, best cost 1574.74 + 16704.6 = 18279.3 over 317 frames.
+VIVOSDEV18_192 CHỮ CÁC GƯƠNG MẶT TRẺ TRUNG MANG THEO CÓ THỂ LÀ GÌ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_194, best cost 1828.94 + 18569.7 = 20398.6 over 345 frames.
+VIVOSDEV18_194 CHUYÊN VỀ MẸ CHO ĐI CAI TẬP TRUNG SAU MỘT NĂM VÀ TRỞ VỀ NHÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_195, best cost 1631.13 + 14804.2 = 16435.3 over 273 frames.
+VIVOSDEV18_195 CHỈ LÀ MỘT TẤM THẢM BẠI SAU ĐÓ MƯỜI ĐIỂM CHUẨN BÃ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_198, best cost 1478.48 + 15051.2 = 16529.6 over 279 frames.
+VIVOSDEV18_198 EM NAY CHÚNG TÔI ĐÃ TỊCH THU ĐƯỢC KHÁ NHIỀU GÀ CHẾT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_199, best cost 1308.14 + 16068.3 = 17376.4 over 289 frames.
+VIVOSDEV18_199 NHƯNG KHÔNG AI MUỐN XUẤT HIỆN BÊN CẠNH MỘT NGƯỜI NHƯ VẬY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_211, best cost 1584.64 + 20802.9 = 22387.5 over 407 frames.
+VIVOSDEV18_211 HIỆN VẪN TẠO ĐƯỢC THUẬT ĐIỆN TỬ ĐƯỢC CÔNG TY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_214, best cost 1975.07 + 20594.7 = 22569.7 over 373 frames.
+VIVOSDEV18_214 TRIỆU HAI DÂN TỘC TỈNH CƯỜI LÊN KHANH Ở MỘT SỐ CHỦ ĐIỂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_240, best cost 1272.65 + 18688.3 = 19960.9 over 348 frames.
+VIVOSDEV18_240 MỜI THAM DỰ CUỘC THI VIẾT NGẮN MỘT GIỜ KHÔNG ĐIỆN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_250, best cost 1958.93 + 23646.2 = 25605.1 over 451 frames.
+VIVOSDEV18_250 LẦN ĐẦU TIÊN MỘT NHÂN VIÊN NGƯỜI VIỆT THÁCH THỨC VIỆC TÁC NGHIỆP CỦA TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_252, best cost 1486.45 + 16166.9 = 17653.4 over 314 frames.
+VIVOSDEV18_252 LÚC ĐÓ CHỊ VẪN LÀM NHƯ VẬY CŨNG LÀ MÀ VUI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_257, best cost 1895.3 + 18311.8 = 20207.1 over 348 frames.
+VIVOSDEV18_257 NGƯỜI NGHE TIẾNG ĐIỂM VÀ TỰ TẠI ĐIỂM TÚI XÁCH ĐÈN TRỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_259, best cost 1634.86 + 18129.5 = 19764.3 over 342 frames.
+VIVOSDEV18_259 MỘT CON NHỆN NGÀY PHA BÓNG ẤY THÌ PHẢI SỬA LUẬT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_263, best cost 1188.94 + 16347.2 = 17536.2 over 335 frames.
+VIVOSDEV18_263 QUẢN LÝ NHÀ NƯỚC VIỆC GIAO THÔNG VẬN TẢI ĐÔ THỊ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_265, best cost 1653.35 + 19978.9 = 21632.3 over 398 frames.
+VIVOSDEV18_265 SAU ĐÓ HỌ LẠI LÀ SÂN CHƠI RỒI ĐÁNH CẮP ĐỨA BÉ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_272, best cost 1592.74 + 15384.1 = 16976.9 over 310 frames.
+VIVOSDEV18_272 ANH ẤY BẢO TÔI VỀ TRƯỚC CÒN ANH ĐI THEO CÔ GÁI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_273, best cost 1313.7 + 18529.2 = 19842.9 over 332 frames.
+VIVOSDEV18_273 TRƯỚC HẾT BẠN CẦN TÌM HIỂU THÔNG TIN QUY HOẠCH KHU ĐẤT 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_279, best cost 2291.49 + 21751.2 = 24042.7 over 407 frames.
+VIVOSDEV18_279 NHỮNG SẢN PHẨM GIÚP ĐỠ NGỰC VÀ TẠM BỢ CẤP TẤT CẢ NHỮNG ĐIỂM DIỄN CHÍNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_280, best cost 1403.52 + 16040.9 = 17444.4 over 292 frames.
+VIVOSDEV18_280 PHÓNG SỰ ẢNH NHỮNG MÀN BIỂU DIỄN NGOẠN MỤC TRÊN BẦU TRỜI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_282, best cost 1637.26 + 17739.7 = 19376.9 over 323 frames.
+VIVOSDEV18_282 CUỐI CÙNG CHẲNG AI CHỊU NỔI CẢI TIẾN HAM VUI CỦA TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_293, best cost 1171.33 + 13597.6 = 14768.9 over 245 frames.
+VIVOSDEV18_293 CÁC TRUNG TÂM NÀY CÔNG AN ĐÃ BẮT GIỮ TỚI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV18_297, best cost 1903.96 + 18054.3 = 19958.2 over 326 frames.
+VIVOSDEV18_297 HOA PHƯỢNG VẪN NỞ CHƠI TRỐNG TIẾNG KÈN SÁO SẮT KHÔN NGUÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_008, best cost 1593.63 + 20151.5 = 21745.1 over 479 frames.
+VIVOSDEV19_008 TỪ ĐÓ LẠI XẢY RA VÀO NHIỀU HOÀN CẢNH ĐÁNG TIẾC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_011, best cost 1617.38 + 16892.9 = 18510.3 over 410 frames.
+VIVOSDEV19_011 MONG ANH HÃY HIỂU CHO EM NIỀM THƯƠNG NHỚ VÀ YÊU ANH NHIỀU 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_020, best cost 1638.78 + 19742.4 = 21381.1 over 467 frames.
+VIVOSDEV19_020 LÊN CÁC CUỘC HẸN PHỎNG VẤN VÀ THỰC HIỆN PHÒNG PHONG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_022, best cost 1715.83 + 21044 = 22759.8 over 492 frames.
+VIVOSDEV19_022 XÉT Ở KHÍA CẠNH NÀY THÌ ĐÚNG LÀ MẤT BÒ MỚI LO LÀM CHUỒNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_024, best cost 1350.14 + 16394 = 17744.2 over 389 frames.
+VIVOSDEV19_024 TUY NHIÊN TÔI NGHĨ CẬU TA XỨNG ĐÁNG VỚI CHỨC VÔ ĐỊCH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_027, best cost 1604.67 + 16907.4 = 18512.1 over 398 frames.
+VIVOSDEV19_027 NHỮNG BIẾN DẠNG NÀY THƯỜNG THẤY RÕ KHI DƯƠNG VẬT CƯƠNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_029, best cost 1776.92 + 13587.4 = 15364.3 over 295 frames.
+VIVOSDEV19_029 GIỎI THÌ BẮT MÌNH ĐI RA KHÔNG NUÔI THÌ AI NUÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_030, best cost 1556.27 + 15490.2 = 17046.5 over 357 frames.
+VIVOSDEV19_030 PHÙ SA BỒI ĐẮP RUỘNG VƯỜN CHO XÓM LÀNG TRÙ PHÚ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_045, best cost 1374.39 + 18929.3 = 20303.7 over 417 frames.
+VIVOSDEV19_045 ÔNG NÓI CHÚNG TÔI HI VỌNG SẼ CÓ NHỮNG TIN TỨC TỐT LÀNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_056, best cost 1425.44 + 17465.9 = 18891.4 over 404 frames.
+VIVOSDEV19_056 VỀ NGUYÊN TẮC VÀ HỌC LÀ SINH VIÊN PHẢI ĐÓNG HỌC PHÍ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_061, best cost 1741.78 + 17997.8 = 19739.6 over 404 frames.
+VIVOSDEV19_061 ĐỂ NHỮNG KHÁCH HÀNG VÀ MÀU KHÔNG GIAN CHẮN SẼ BỊ ĐẨY LÙI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_064, best cost 2085.04 + 27572.4 = 29657.4 over 660 frames.
+VIVOSDEV19_064 TRONG MẮT CON CÓ THỂ GIÁ VỀ TÌNH TRẠNG RỐI LOẠN NHỊP TIM LẠI GÂY RA 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_071, best cost 1849.32 + 25398 = 27247.3 over 604 frames.
+VIVOSDEV19_071 TRONG NGẮN HẠN THỊ TRƯỜNG VẬN HÀNH NHƯ MỘT CỖ MÁY BẦU CỬ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_072, best cost 1307.63 + 15785 = 17092.6 over 335 frames.
+VIVOSDEV19_072 CHƯƠNG TRÌNH HỌC BỔNG THANH NIÊN CHÂU Á CỦA NHẬT BẢN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_083, best cost 2057.53 + 24233.3 = 26290.8 over 573 frames.
+VIVOSDEV19_083 NHƯNG RỒI CÁI TÌNH VỚI BÀ CON CỨ NĂM ĐIỀU KHÔNG DỨT RA ĐƯỢC 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_091, best cost 1804.57 + 25531.4 = 27336 over 576 frames.
+VIVOSDEV19_091 SỐ ĐƠN VỊ THAM GIA HỘI CHỢ VIỆC LÀM TĂNG ĐÁNG KỂ QUA CÁC NĂM 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_094, best cost 1634.73 + 17678.7 = 19313.4 over 392 frames.
+VIVOSDEV19_094 TRANG VIẾT CỦA HỌ HƠN HÀNG THỜI TUỔI TRẺ CỦA TÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_111, best cost 1645.73 + 19874.2 = 21520 over 442 frames.
+VIVOSDEV19_111 KHUYẾT ĐIỂM LỚN CỦA CHÚNG TA LẠI CHƯA CÓ DÂN CHỦ THỰC SỰ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_133, best cost 1707 + 19578.7 = 21285.7 over 429 frames.
+VIVOSDEV19_133 EM CÓ SUY NGHĨ THÊM VỀ VIỆC THAM DỰ HỘI CHỢ KHOA HỌC KHÔNG 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_142, best cost 2187.7 + 21825.6 = 24013.4 over 473 frames.
+VIVOSDEV19_142 HỌ CHỈ THÍCH NHỮNG MÔN GÌ VÀ BẢO BẠO LỰC VÀ KIẾM RA TIỀN THÔI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_158, best cost 1673.09 + 19655.4 = 21328.4 over 479 frames.
+VIVOSDEV19_158 NHỮNG NGƯỜI KHI ẤY THẬT ĐÁNG PHÊ PHÁN ĐÃ LÊN ÁN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_161, best cost 1987.79 + 22808 = 24795.8 over 573 frames.
+VIVOSDEV19_161 THÔNG THƯỜNG ÁN KỶ LUẬT NÊU VÀ THƯỜNG BAN HÀNH VÀO CUỐI TUẦN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_163, best cost 1700.62 + 18609.4 = 20310.1 over 435 frames.
+VIVOSDEV19_163 ĐIỀU LẠ LÀ TÔI VẪN KHÔNG TỪ BỎ Ý ĐỊNH TRỞ THÀNH TU SĨ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_167, best cost 1883.27 + 25929.9 = 27813.1 over 573 frames.
+VIVOSDEV19_167 CÁC QUY ĐỊNH CỦA PHÁP LUẬT KHÔNG THỂ ĐƯỢC BAN HÀNH THEO KIỂU BÁN LẺ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_169, best cost 1738.52 + 16186.5 = 17925 over 404 frames.
+VIVOSDEV19_169 NHANH QUÁ ĐÃ LÀ LẦN THỨ BA PHẢI NHÀ RƠI ĐÀI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_179, best cost 1672.46 + 19924.2 = 21596.7 over 439 frames.
+VIVOSDEV19_179 TỚI ĐƯỢC VÙNG NGUYÊN KẾ TOÁN TRƯỞNG CÔNG TY TIẾP THỊ ĐẦU TƯ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_196, best cost 2205.99 + 24557.1 = 26763.1 over 570 frames.
+VIVOSDEV19_196 NGƯỜI ANH SAU ĐÓ ĐƯỢC PHÉP THẦU XÂY KÈ NÀY NHƯNG KHÔNG TIẾN HÀNH 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_218, best cost 1870.27 + 22929.5 = 24799.8 over 529 frames.
+VIVOSDEV19_218 NÓI CÁCH KHÁC CÁI ĐƯỢC CỦA CHÂU Á LÀ TAI MẮT CỦA CHÂU PHI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_222, best cost 2497.58 + 25710.2 = 28207.8 over 604 frames.
+VIVOSDEV19_222 MẶT TỰ NHIÊN HOA LÊN KÝ TRƯỚC MỘT TÀI LIỆU VẬT MẠNH XUỐNG PHÀ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_227, best cost 2011.63 + 27719.8 = 29731.4 over 676 frames.
+VIVOSDEV19_227 TỪ ĐÂY ÔNG CÀNG THÔNG CẢM SÂU SẮC TÂM TRẠNG CỦA NGUYỄN THI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_244, best cost 1468.53 + 18365.8 = 19834.4 over 417 frames.
+VIVOSDEV19_244 EM HÃY TÌM CÁCH TIẾP CẬN ĐỂ BÀY TỎ VỚI MẸ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_245, best cost 1921.79 + 19681.9 = 21603.7 over 435 frames.
+VIVOSDEV19_245 LÚC ĐÓ ĐÁNG KỂ XIẾT CHẶT VIỆC KINH KHỦNG GẤP NHIỀU LẦN HÔM NAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_246, best cost 1681.9 + 21564.4 = 23246.3 over 507 frames.
+VIVOSDEV19_246 VỠ LỞ TA CÓ THỂ ANH NÊN THAY ĐỔI CÁCH TIẾP CẬN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_249, best cost 1732.58 + 20203.6 = 21936.1 over 448 frames.
+VIVOSDEV19_249 ĐÂY ĐƯỢC XEM LÀ VAI DIỄN THÀNH CÔNG NHẤT CỦA PHƯƠNG TỪ TRƯỚC ĐẾN NAY 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_257, best cost 2257.87 + 23374.9 = 25632.7 over 526 frames.
+VIVOSDEV19_257 NHƯNG NẾU CHỈ NÓI CÁI DỜI KHÔNG THÔI THÌ THẬT SỰ CHƯA ĐỦ ĐỂ CHÚNG TỰ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_259, best cost 1379.65 + 16988.9 = 18368.6 over 417 frames.
+VIVOSDEV19_259 TÍCH CỰC HƠN VỚI VẤN ĐỀ LIÊN QUAN ĐẾN KIỀU BÀO 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_262, best cost 1924.14 + 19901.1 = 21825.2 over 464 frames.
+VIVOSDEV19_262 ĐỂ RỒI CHÚNG TA KHAO KHÁT MÃI TRONG VÒNG LUÂN HỒI NHÂN GIAN 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_266, best cost 1358.46 + 16964.6 = 18323.1 over 398 frames.
+VIVOSDEV19_266 VẤN ĐỀ NẢY SINH TỪ CÁI CÂU HỎI CHUYỆN CỦA AI 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_274, best cost 1515.59 + 16498.8 = 18014.4 over 364 frames.
+VIVOSDEV19_274 CHỊ NÊN ĐI KHÁM BÁC SĨ ĐỂ CHỌN PHƯƠNG PHÁP NGỪA THAI HIỆU QUẢ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance VIVOSDEV19_279, best cost 1374.15 + 16727.1 = 18101.2 over 360 frames.
+VIVOSDEV19_279 ĐẦU MỘT CUỘC CHIẾN CHỐNG THAM NHŨNG VẪN DỰA VÀO ĐÂU 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall cost per frame is 50.72 = 4.00967 [graph] + 46.7103 [acoustic] over 267060 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 760 lattices, failed for 0
+# Accounting: time=4 threads=1
+# Ended (code 0) at Fri Dec 30 02:48:15 ICT 2016, elapsed time 4 seconds
